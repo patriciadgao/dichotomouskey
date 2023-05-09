@@ -64,7 +64,7 @@ export function FlowerGrid(props) {
                 alt={"image of " + selectedFlower.name}
                 className="object-cover w-72 h-72 rounded-md"
                 src={require("../flowers/photos/" + selectedFlower.name + ".jpg")}
-                placeholder={<div className="w-36 h-36 bg-gray-100"></div>}
+                placeholder={<div className="w-72 h-72 bg-gray-100"></div>}
             />
             </div>
             <div className="flex flex-col items-center justify-center">
