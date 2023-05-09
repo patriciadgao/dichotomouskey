@@ -1,11 +1,12 @@
 import { FlowerCard } from './FlowerCard';
 import {flowers} from "../flowers/flowers.js";
-import {useEffect, useState} from "react";
+import { useState} from "react";
 import Modal from 'react-modal';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faTimesCircle } from '@fortawesome/free-regular-svg-icons';
 import {LazyLoadImage} from "react-lazy-load-image-component";
 import { Label, Value } from './AttributeComponents';
+import { SearchBar } from './SearchBar';
 
 Modal.defaultStyles.overlay.backgroundColor = '#ffffff80';
 Modal.setAppElement('body');
@@ -26,11 +27,14 @@ const shuffledFlowers = shuffleArray([...flowers]);
 export function FlowerGrid(props) {
     const {showModal, hideModal, modalOpen} = props;
     const [selectedFlower, setSelectedFlower] = useState(undefined);
+    const [flowerList, setFlowerList] = useState([]);
 
   return (
-      <div className="flex flex-wrap items-stretch px-5">
+    <div>
+      <SearchBar setFlowerList={setFlowerList} shuffledFlowers={shuffledFlowers}/>
+      <div className="flex flex-wrap items-stretch px-8 pb-5">
         {
-          shuffledFlowers.map((flower, i) => (
+          flowerList.map((flower, i) => (
             <FlowerCard key={i} flower={flower} onClick={() => {
                 setSelectedFlower(flower);
                 showModal();
@@ -41,7 +45,7 @@ export function FlowerGrid(props) {
             isOpen={modalOpen} 
             onRequestClose={hideModal} 
             closeTimeoutMS={400}
-            className="focus:outline-0 text-slate-600 w-[50vw] max-w-[650px] min-h-[50vh] bg-white m-auto mt-[15vh] shadow-[0_0_25px_-5px_rgba(0,0,0,0.2)] rounded-sm transition-all" 
+            className="sm:w-[90vw] focus:outline-0 text-slate-600 md:w-[50vw] max-w-[650px] min-h-[50vh] bg-white m-auto mt-[15vh] shadow-[0_0_25px_-5px_rgba(0,0,0,0.2)] rounded-sm transition-all" 
         >
             {selectedFlower && <div className="px-6 py-4 space-y-2">
                 <div className="flex justify-between items-center">
@@ -78,6 +82,7 @@ export function FlowerGrid(props) {
             <div className="p-4 flex flex-col items-center text-left">{selectedFlower.description}</div>
             </div>}
         </Modal>
+      </div>
       </div>
   );
 }

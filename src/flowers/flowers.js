@@ -232,7 +232,7 @@ export const flowers = [
     },
     {
         name: 'lanceleaf liveforever',
-        genus: 'dudleya',
+        genus: 'Dudleya',
         colors: ['red', 'orange', 'yellow'],
         petals: '6',
         edge: ['pointy'],
