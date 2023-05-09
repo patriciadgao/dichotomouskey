@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dichotomouskey/static/css/main.1fd4297d.css",
-    "main.js": "/dichotomouskey/static/js/main.5ec7a2c9.js",
+    "main.js": "/dichotomouskey/static/js/main.a0babe82.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/bluemink.jpg": "/dichotomouskey/static/media/bluemink.fcb6bcac67f796bf9daa.jpg",
     "static/media/Lotus japonicus.jpg": "/dichotomouskey/static/media/Lotus japonicus.f3c0756f2d96557ebcc6.jpg",
@@ -65,11 +65,11 @@
     "static/media/Sarah Bernhardt peony.jpg": "/dichotomouskey/static/media/Sarah Bernhardt peony.7e100cda1692014c3eec.jpg",
     "index.html": "/dichotomouskey/index.html",
     "main.1fd4297d.css.map": "/dichotomouskey/static/css/main.1fd4297d.css.map",
-    "main.5ec7a2c9.js.map": "/dichotomouskey/static/js/main.5ec7a2c9.js.map",
+    "main.a0babe82.js.map": "/dichotomouskey/static/js/main.a0babe82.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1fd4297d.css",
-    "static/js/main.5ec7a2c9.js"
+    "static/js/main.a0babe82.js"
   ]
 }
