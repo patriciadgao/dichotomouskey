@@ -34,16 +34,16 @@ export function SearchBar(props) {
 
     useEffect(() => {
         setFlowerList(searchEverything(search, searchableFlowers));
-    }, [search, searchableFlowers]);
+    }, [search, searchableFlowers, setFlowerList]);
 
     return (
-        <div className="flex justify-center m-6">
+        <div className="flex justify-center my-6 mx-12">
             <input
                 type="text"
                 placeholder="Search by name, color, etc..."
                 onChange={handleSearch}
                 value={search}
-                className="transition-all opacity-75 hover:opacity-100 transition-all focus:opacity-100 focus:outline max-w-400px w-[50vw] border-0 focus:outline-pink-300 shadow focus:outline-2 py-3 px-5 rounded-full text-slate-800"
+                className="transition-all opacity-75 hover:opacity-100 transition-all focus:opacity-100 focus:outline lg:max-w-[800px] grow md:w-[50vw] border-0 focus:outline-pink-300 shadow focus:outline-2 py-3 px-5 rounded-full text-slate-800"
             />
         </div>
     )

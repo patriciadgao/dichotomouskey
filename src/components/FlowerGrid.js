@@ -5,8 +5,9 @@ import Modal from 'react-modal';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faTimesCircle } from '@fortawesome/free-regular-svg-icons';
 import {LazyLoadImage} from "react-lazy-load-image-component";
-import { Label, Value } from './AttributeComponents';
+import { Label, Value, ValueItalic } from './AttributeComponents';
 import { SearchBar } from './SearchBar';
+import { Colorblock } from './Colorblock';
 
 Modal.defaultStyles.overlay.backgroundColor = '#ffffff80';
 Modal.setAppElement('body');
@@ -45,10 +46,10 @@ export function FlowerGrid(props) {
             isOpen={modalOpen} 
             onRequestClose={hideModal} 
             closeTimeoutMS={400}
-            className="sm:w-[90vw] focus:outline-0 text-slate-600 md:w-[50vw] max-w-[650px] min-h-[50vh] bg-white m-auto mt-[15vh] shadow-[0_0_25px_-5px_rgba(0,0,0,0.2)] rounded-sm transition-all" 
+            className="bg-white md:mt-[10vh] sm:mt-[5vh] overflow-auto sm:max-h-[95vh] md:max-h-[90vh] sm:w-[90vw] focus:outline-0 text-slate-600 md:w-[50vw] max-w-[550px] min-h-[50vh] m-auto shadow-[0_0_25px_-5px_rgba(0,0,0,0.2)] rounded-sm transition-all" 
         >
-            {selectedFlower && <div className="px-6 py-4 space-y-2">
-                <div className="flex justify-between items-center">
+            {selectedFlower && <div>
+                <div className="top-0 sticky flex justify-between items-center bg-white py-4 px-6">
                     <div className="w-8"></div>
                 <div className="font-bold"><h1>{selectedFlower.name}</h1></div>
             <div className="cursor-pointer p-2 text-xl hover:text-slate-400" onClick={() => {
@@ -57,6 +58,7 @@ export function FlowerGrid(props) {
             }}>
             <FontAwesomeIcon icon={faTimesCircle}/></div>
             </div>
+            <div className="space-y-2 px-6 pb-4">
             <div className="flex justify-center">
             <LazyLoadImage
                 alt={"image of " + selectedFlower.name}
@@ -68,9 +70,9 @@ export function FlowerGrid(props) {
             <div className="flex flex-col items-center justify-center">
             <div className="pt-4 grid grid-cols-2 gap-x-2">
                     <Label>genus</Label>
-                    <Value>{selectedFlower.genus}</Value>
+                    <ValueItalic>{selectedFlower.genus}</ValueItalic>
                     <Label>colors</Label>
-                    <Value>{selectedFlower.colors.join(', ')}</Value>
+                    <div className="flex items-center space-x-1.5">{selectedFlower.colors.map((c) => <Colorblock nameOfColor={c}/>)}</div>
                     <Label>petals</Label>
                     <Value>{selectedFlower.petals} {selectedFlower.edge.join(", ")}</Value>
                     <Label>size & shape</Label>
@@ -80,6 +82,7 @@ export function FlowerGrid(props) {
             </div>
             </div>
             <div className="p-4 flex flex-col items-center text-left">{selectedFlower.description}</div>
+            </div>
             </div>}
         </Modal>
       </div>
