@@ -22,6 +22,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "generateFlowers": "python3 scripts/flowerObjectReader.py | pbcopy",
+    "resizePhotos": "python3 scripts/flowerPhotoResizer.py",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
