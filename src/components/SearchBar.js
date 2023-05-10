@@ -106,7 +106,7 @@ export function SearchBar(props) {
                 placeholder="Search by name, color, etc..."
                 onChange={handleSearch}
                 value={search.text}
-                className="transition-all opacity-75 hover:opacity-100 transition-all focus:opacity-100 focus:outline grow border-0 focus:outline-pink-300 shadow focus:outline-2 py-3 px-5 rounded-full text-slate-800"
+                className="transition-all opacity-75 hover:opacity-100 transition-all focus:opacity-100 focus:ring-2 grow border-0 focus:ring-pink-300 shadow outline-0 py-3 px-5 rounded-full text-slate-800"
             />
             <AdvancedButton onClick={() => setAdvancedSearchOpen(!advancedSearchOpen)}>
                 <div>{advancedSearchOpen ? "Hide filters" : "Show filters"}</div>
