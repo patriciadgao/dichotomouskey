@@ -18,9 +18,9 @@ function App() {
   }
 
   return (
-    <div className="text-center bg-pink-200 text-slate-600 min-h-screen" id="page">
-      <header className="font-bold text-xl pt-20 pb-5">
-        <h1>Pat's Flowers</h1>
+    <div className="text-center bg-pink-200 text-slate-600 min-h-screen">
+      <header className="text-4xl pt-16 pb-5">
+        <h1 id="webtitle">Pat's Flowers</h1>
       </header>
       <NavButtons setView={setView} view={view}/>
       {view === "about" && <About/>}

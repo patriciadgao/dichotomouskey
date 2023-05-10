@@ -16,7 +16,7 @@ export function Filters(props) {
                 shape: []
             })}>Clear filters</Chip></div>
             <div className="flex justify-center">
-        <div className="grid grid-cols-2 m-2 sm:w-[80vw] gap-2.5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 m-2 sm:w-[80vw] gap-2.5">
             {searchOptions.color.length > 0 && <ColorSearch options={searchOptions.color} search={search} setSearch={setSearch}/>}
             {searchOptions.shape.length > 0 && <GenericSearch title="Flower shape" optionName="shape" options={searchOptions.shape} search={search} setSearch={setSearch}/>}
             {searchOptions.petals.length > 0 && <GenericSearch title="# Petals" optionName="petals" options={searchOptions.petals} search={search} setSearch={setSearch}/>}
