@@ -1,8 +1,7 @@
 import { faChevronDown, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState, useEffect, useMemo } from "react";
-import { AdvancedSearch } from "./AdvancedSearch";
-import { hexCodes } from "./Colorblock";
+import { Filters } from "./Filters";
 
 function searchEverything(search, flowers) {
     const searchWords = search.text.split(" ").map((w) => w.toLowerCase()).concat(search.color).concat(search.shape).concat(search.petals).concat(search.edge).concat(search.size).concat([search.tree.includes('yes') ? 'tree' : '']);
@@ -110,7 +109,7 @@ export function SearchBar(props) {
                 className="transition-all opacity-75 hover:opacity-100 transition-all focus:opacity-100 focus:outline grow border-0 focus:outline-pink-300 shadow focus:outline-2 py-3 px-5 rounded-full text-slate-800"
             />
             <AdvancedButton onClick={() => setAdvancedSearchOpen(!advancedSearchOpen)}>
-                <div>{advancedSearchOpen ? "Hide advanced" : "Advanced search"}</div>
+                <div>{advancedSearchOpen ? "Hide filters" : "Show filters"}</div>
                 <div>
                 <FontAwesomeIcon icon={advancedSearchOpen ? faChevronDown : faChevronRight} className="text-sm"/>
                 </div>
@@ -118,7 +117,7 @@ export function SearchBar(props) {
         </div>
         </div>
             {
-                advancedSearchOpen && <AdvancedSearch search={search} setSearch={setSearch} searchOptions={searchOptions}/>
+                advancedSearchOpen && <Filters search={search} setSearch={setSearch} searchOptions={searchOptions}/>
             }
         </div>
     )

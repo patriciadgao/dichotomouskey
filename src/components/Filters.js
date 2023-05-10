@@ -1,7 +1,7 @@
 import { Chip } from "./Chip";
 import { Colorblock } from "./Colorblock";
 
-export function AdvancedSearch(props) {
+export function Filters(props) {
     const {search, setSearch, searchOptions} = props;
 
     console.log(searchOptions);
