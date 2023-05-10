@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dichotomouskey/static/css/main.1fd4297d.css",
-    "main.js": "/dichotomouskey/static/js/main.a0babe82.js",
+    "main.css": "/dichotomouskey/static/css/main.2f2992a4.css",
+    "main.js": "/dichotomouskey/static/js/main.73d77c4b.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/bluemink.jpg": "/dichotomouskey/static/media/bluemink.fcb6bcac67f796bf9daa.jpg",
     "static/media/Lotus japonicus.jpg": "/dichotomouskey/static/media/Lotus japonicus.f3c0756f2d96557ebcc6.jpg",
@@ -63,13 +63,14 @@
     "static/media/desert wirelettuce.jpg": "/dichotomouskey/static/media/desert wirelettuce.e34539115f08a707ea1e.jpg",
     "static/media/trumpet vine.jpg": "/dichotomouskey/static/media/trumpet vine.925b22e2a1803ab9b166.jpg",
     "static/media/Sarah Bernhardt peony.jpg": "/dichotomouskey/static/media/Sarah Bernhardt peony.7e100cda1692014c3eec.jpg",
+    "static/media/bookpat.jpg": "/dichotomouskey/static/media/bookpat.ae3bf630331f8e4d4ad4.jpg",
     "index.html": "/dichotomouskey/index.html",
-    "main.1fd4297d.css.map": "/dichotomouskey/static/css/main.1fd4297d.css.map",
-    "main.a0babe82.js.map": "/dichotomouskey/static/js/main.a0babe82.js.map",
+    "main.2f2992a4.css.map": "/dichotomouskey/static/css/main.2f2992a4.css.map",
+    "main.73d77c4b.js.map": "/dichotomouskey/static/js/main.73d77c4b.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1fd4297d.css",
-    "static/js/main.a0babe82.js"
+    "static/css/main.2f2992a4.css",
+    "static/js/main.73d77c4b.js"
   ]
 }
