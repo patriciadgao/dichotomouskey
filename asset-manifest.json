@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/dichotomouskey/static/css/main.6bb8f0d1.css",
-    "main.js": "/dichotomouskey/static/js/main.199d5d96.js",
+    "main.js": "/dichotomouskey/static/js/main.f72be68a.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/bluemink.jpg": "/dichotomouskey/static/media/bluemink.fcb6bcac67f796bf9daa.jpg",
     "static/media/Lotus japonicus.jpg": "/dichotomouskey/static/media/Lotus japonicus.f3c0756f2d96557ebcc6.jpg",
     "static/media/grape hyacinth.jpg": "/dichotomouskey/static/media/grape hyacinth.7fa3372a5f1292d90d99.jpg",
+    "static/media/Pursh's milkvetch.jpg": "/dichotomouskey/static/media/Pursh's milkvetch.37552ba6194d9811a0f9.jpg",
     "static/media/grass lily.jpg": "/dichotomouskey/static/media/grass lily.c8bda5ca44e4b65f1f28.jpg",
     "static/media/Texas bluebonnet.jpg": "/dichotomouskey/static/media/Texas bluebonnet.2d9decab429e08cebbaa.jpg",
     "static/media/globe amaranth.jpg": "/dichotomouskey/static/media/globe amaranth.3d00794593d645bdfa46.jpg",
@@ -13,10 +14,12 @@
     "static/media/birdeye speedwell.jpg": "/dichotomouskey/static/media/birdeye speedwell.4691e06ba2bae0724f25.jpg",
     "static/media/blue felicia.jpg": "/dichotomouskey/static/media/blue felicia.88facf6f31183927dc45.jpg",
     "static/media/African daisy.jpg": "/dichotomouskey/static/media/African daisy.05007d4edc15f9132be7.jpg",
+    "static/media/meadow death camas.jpg": "/dichotomouskey/static/media/meadow death camas.c11f8e3cab5c48d336e5.jpg",
     "static/media/dandelion.jpg": "/dichotomouskey/static/media/dandelion.3e9ae641c1927e5a7fe7.jpg",
     "static/media/lilac.jpg": "/dichotomouskey/static/media/lilac.43ce0e2973453647e590.jpg",
     "static/media/common stork's-bill.jpg": "/dichotomouskey/static/media/common stork's-bill.b01ffeee82678e3487ea.jpg",
     "static/media/white campion.jpg": "/dichotomouskey/static/media/white campion.77b331ec360bce37cb2c.jpg",
+    "static/media/milkvetch.jpg": "/dichotomouskey/static/media/milkvetch.e6e67d52ecf4c292d505.jpg",
     "static/media/musk-mallow.jpg": "/dichotomouskey/static/media/musk-mallow.3dd16645a5fa20742bcd.jpg",
     "static/media/spreading phlox.jpg": "/dichotomouskey/static/media/spreading phlox.f7872361dd0991471212.jpg",
     "static/media/apple.jpg": "/dichotomouskey/static/media/apple.499acb9e2f1790c23f7a.jpg",
@@ -66,11 +69,11 @@
     "static/media/bookpat.jpg": "/dichotomouskey/static/media/bookpat.ae3bf630331f8e4d4ad4.jpg",
     "index.html": "/dichotomouskey/index.html",
     "main.6bb8f0d1.css.map": "/dichotomouskey/static/css/main.6bb8f0d1.css.map",
-    "main.199d5d96.js.map": "/dichotomouskey/static/js/main.199d5d96.js.map",
+    "main.f72be68a.js.map": "/dichotomouskey/static/js/main.f72be68a.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bb8f0d1.css",
-    "static/js/main.199d5d96.js"
+    "static/js/main.f72be68a.js"
   ]
 }
