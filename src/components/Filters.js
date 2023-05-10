@@ -4,18 +4,26 @@ import { Colorblock } from "./Colorblock";
 export function Filters(props) {
     const {search, setSearch, searchOptions} = props;
 
-    console.log(searchOptions);
-
     return (
-        <div className="flex justify-center pb-4">
-        <div className="grid grid-cols-2 m-2 sm:w-[80vw] gap-2">
+        <div className="m-auto pb-4">
+            <div className="flex justify-center"><Chip active={search.color.length > 0 || search.shape.length > 0 || search.petals.length > 0 || search.size.length > 0 || search.edge.length > 0 || search.tree.length > 0} onClick={() => setSearch({
+                ...search,
+                color: [],
+                petals: [],
+                size: [],
+                edge: [],
+                tree: [],
+                shape: []
+            })}>Clear filters</Chip></div>
+            <div className="flex justify-center">
+        <div className="grid grid-cols-2 m-2 sm:w-[80vw] gap-2.5">
             {searchOptions.color.length > 0 && <ColorSearch options={searchOptions.color} search={search} setSearch={setSearch}/>}
             {searchOptions.shape.length > 0 && <GenericSearch title="Flower shape" optionName="shape" options={searchOptions.shape} search={search} setSearch={setSearch}/>}
             {searchOptions.petals.length > 0 && <GenericSearch title="# Petals" optionName="petals" options={searchOptions.petals} search={search} setSearch={setSearch}/>}
             {searchOptions.size.length > 0 && <GenericSearch title="Flower size" optionName="size" options={searchOptions.size} search={search} setSearch={setSearch}/>}
             {searchOptions.edge.length > 0 && <GenericSearch title="Petal edge" optionName="edge" options={searchOptions.edge} search={search} setSearch={setSearch}/>}
             {searchOptions.tree.length > 0 && <GenericSearch title="Tree" optionName="tree" options={searchOptions.tree} search={search} setSearch={setSearch}/>}
-        </div>
+        </div></div>
         </div>
     )
 }
@@ -27,7 +35,7 @@ function ColorSearch(props) {
     const searchedColorsSet = new Set(searchedColors);
 
     return (
-        <div className="space-y-2 flex flex-col items-center">
+        <div className="space-y-1 flex flex-col items-center">
             <h3 className="text-base font-semibold">Color</h3>
         <div className="flex flex-wrap justify-center">
             {
@@ -51,7 +59,7 @@ function GenericSearch(props) {
     const searchedOptionsSet = new Set(searchedOptions);
 
     return (
-        <div className="space-y-2 flex flex-col items-center">
+        <div className="space-y-1 flex flex-col items-center">
             <h3 className="text-base font-semibold">{title}</h3>
             <div className="flex flex-wrap justify-center">
                 {
