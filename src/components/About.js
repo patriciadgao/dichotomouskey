@@ -11,6 +11,11 @@ export const About = () => (
             the right one". My experience doing so has not always been fun and 
             I wish there were more easy-to-use sites out there for people to 
             learn the names of flowers, so I made one!
+            <br/><br/>
+            You may notice that I've taken some liberties in categorizing
+            flowers and doing things like counting their petals. If I've
+            made an egregious error somewhere, please feel free to contact
+            me about it!
         </div>
         </div>
     </div>

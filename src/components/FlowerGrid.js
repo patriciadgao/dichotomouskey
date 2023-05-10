@@ -1,4 +1,4 @@
-import { FlowerCard } from './FlowerCard';
+import { FlowerCard, FlowerCardPhotoOnly } from './FlowerCard';
 import {flowers} from "../flowers/flowers.js";
 import { useState} from "react";
 import Modal from 'react-modal';
@@ -8,6 +8,7 @@ import {LazyLoadImage} from "react-lazy-load-image-component";
 import { Label, Value, ValueItalic } from './AttributeComponents';
 import { SearchBar } from './SearchBar';
 import { Colorblock } from './Colorblock';
+import { Chip } from './Chip';
 
 Modal.defaultStyles.overlay.backgroundColor = '#ffffff80';
 Modal.setAppElement('body');
@@ -29,19 +30,32 @@ export function FlowerGrid(props) {
     const {showModal, hideModal, modalOpen} = props;
     const [selectedFlower, setSelectedFlower] = useState(undefined);
     const [flowerList, setFlowerList] = useState([]);
+    const [photosOnly, setPhotosOnly] = useState(false);
 
   return (
     <div>
       <SearchBar setFlowerList={setFlowerList} shuffledFlowers={shuffledFlowers}/>
+      <div className="flex justify-end mb-2 mr-12 space-x-2 items-center hover:cursor-pointer hover:underline" onClick={() => setPhotosOnly(!photosOnly)}>
+          <input 
+            type="checkbox" 
+            checked={photosOnly} 
+            className="w-5 h-5 checked:text-pink-300 outline-0 border-none rounded-sm focus:ring-0 shadow"
+          /><div>show photos only</div>
+      </div>
       <div className="flex flex-wrap items-stretch px-8 pb-5">
         {
           flowerList.length > 0 ?
-          flowerList.map((flower, i) => (
+          (photosOnly ? flowerList.map((flower, i) => (
+            <FlowerCardPhotoOnly key={i} flower={flower} onClick={() => {
+              setSelectedFlower(flower);
+              showModal();
+            }}/>
+          )) : flowerList.map((flower, i) => (
             <FlowerCard key={i} flower={flower} onClick={() => {
                 setSelectedFlower(flower);
                 showModal();
             }}/>
-          )) : <div className="m-auto mt-4">No flowers to show!</div>
+          ))) : <div className="m-auto mt-4">No flowers to show!</div>
         }
         <Modal 
             isOpen={modalOpen} 

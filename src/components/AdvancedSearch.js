@@ -1,3 +1,4 @@
+import { Chip } from "./Chip";
 import { Colorblock } from "./Colorblock";
 
 export function AdvancedSearch(props) {
@@ -6,7 +7,7 @@ export function AdvancedSearch(props) {
     console.log(searchOptions);
 
     return (
-        <div className="flex justify-center">
+        <div className="flex justify-center pb-4">
         <div className="grid grid-cols-2 m-2 sm:w-[80vw] gap-2">
             {searchOptions.color.length > 0 && <ColorSearch options={searchOptions.color} search={search} setSearch={setSearch}/>}
             {searchOptions.shape.length > 0 && <GenericSearch title="Flower shape" optionName="shape" options={searchOptions.shape} search={search} setSearch={setSearch}/>}
@@ -16,16 +17,6 @@ export function AdvancedSearch(props) {
             {searchOptions.tree.length > 0 && <GenericSearch title="Tree" optionName="tree" options={searchOptions.tree} search={search} setSearch={setSearch}/>}
         </div>
         </div>
-    )
-}
-
-function Chip(props) {
-    const {onClick, active = false} = props;
-
-    const className = "m-1 hover:opacity-100 hover:scale-105 text-xs rounded-xl bg-white px-3 py-2 flex space-x-1.5 items-center" + (active ? "" : " opacity-60");
-
-    return (
-        <button onClick={onClick} className={className}>{props.children}</button>
     )
 }
 
