@@ -4,7 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 import { Filters } from "./Filters";
 
 function searchEverything(search, flowers) {
-    const searchWords = search.text.split(" ").map((w) => w.toLowerCase().replace("ʼ", "'").replace("ʻ", "'")).concat(search.color).concat(search.shape).concat(search.petals).concat(search.edge).concat(search.size).concat([search.tree.includes('yes') ? 'tree' : '']);
+    const searchWords = search.text.split(" ").map((w) => w.toLowerCase()).concat(search.color).concat(search.shape).concat(search.petals).concat(search.edge).concat(search.size).concat([search.tree.includes('yes') ? 'tree' : '']);
     const searchOptions = {
         color: new Set(),
         petals: new Set(),
