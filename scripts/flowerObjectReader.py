@@ -1,9 +1,10 @@
 import csv
+import json
 
-print("export const flowers = [")
+# def escape_quotes(st):
+#     return st.replace("'",r"\'").replace('"',r'\"')
 
-def escape_quotes(st):
-    return st.replace("'",r"\'").replace('"',r'\"')
+flowers = []
 
 with open("scripts/flowers.tsv") as file:
     tsv = csv.reader(file, delimiter="\t")
@@ -13,7 +14,7 @@ with open("scripts/flowers.tsv") as file:
         if isFirst:
             isFirst = False
         else:
-            name = escape_quotes(line[0])
+            name = line[0]
             genus = line[1]
             colors = line[2].split(';')
             petals = line[3]
@@ -21,16 +22,18 @@ with open("scripts/flowers.tsv") as file:
             size = line[5]
             shape = line[6]
             tree = line[7]
-            description = escape_quotes(line[8])
-            print("{")
-            print("\tname: '" + name + "',")
-            print("\tgenus: '" + genus + "',")
-            print("\tcolors: " + str(colors) + ",")
-            print("\tpetals: '" + petals + "',")
-            print("\tedge: " + str(edge) + ",")
-            print("\tsize: '" + size + "',")
-            print("\tshape: '" + shape + "',")
-            print("\ttree: '" + tree + "',")
-            print("\tdescription: '" + description + "',")
-            print("},")
-print("];")
+            description = line[8]
+            flowers.append({
+                'name': name,
+                'genus': genus,
+                'colors': colors,
+                'petals': petals,
+                'edge': edge,
+                'size': size,
+                'shape': shape,
+                'tree': tree,
+                'description': description
+            })
+
+with open('src/flowers/flowers.js', 'w') as flower_file:
+    flower_file.write('export const flowers = %s;' % json.dumps(flowers))

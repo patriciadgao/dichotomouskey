@@ -4,10 +4,14 @@ import os
 filename = "x"
 
 # load each flower photo from the flower photos folder
-directory = "../src/flowers/photos"
+directory = "src/flowers/photos"
+
+# figure out which small photos we already have 
+smallPhotoDirectory = "src/flowers/photos/small"
+smallPhotos = os.listdir(smallPhotoDirectory)
 
 for filename in os.listdir(directory):
-    if filename[-4:] == ".jpg":
+    if filename[-4:] == ".jpg" and filename[:-4] + "_small.jpg" not in smallPhotos:
         # figure out if width is greater than height 
         img = Image.open(directory + "/" + filename)
         w = img.size[0]

@@ -39,6 +39,7 @@ export function FlowerGrid(props) {
           <input 
             type="checkbox" 
             checked={photosOnly} 
+            readOnly
             className="w-5 h-5 checked:text-pink-300 outline-0 border-none rounded-sm focus:ring-0 shadow"
           /><div>show photos only</div>
       </div>
