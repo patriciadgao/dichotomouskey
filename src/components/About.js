@@ -9,8 +9,8 @@ export const About = () => (
             my own eyeballs, and pages called things like "Giant list of purple 
             wildflowers that Pat has to scroll through in order to find 
             the right one". My experience doing so has not always been fun and 
-            I wish there were more easy-to-use flower sites out there for people to 
-            more easily know the (often silly) names of flowers they're looking at.
+            I wish there were more easy-to-use sites out there for people to 
+            learn the names of flowers, so I made one!
         </div>
         </div>
     </div>

@@ -19,7 +19,7 @@ export function NavButtons(props) {
 function NavButton(props) {
     const {onClick, active} = props;
 
-    const className = "rounded-full py-3 px-5 bg-white hover:opacity-100 hover:shadow" + (active ? " opacity-100 shadow" : " opacity-50")
+    const className = "hover:scale-105 rounded-full py-3 px-5 bg-white hover:opacity-100 hover:shadow transition-all" + (active ? " opacity-100 shadow" : " opacity-50")
 
     return (
         <button onClick={onClick} className={className}>{props.children}</button>

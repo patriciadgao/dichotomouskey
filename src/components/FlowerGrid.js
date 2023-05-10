@@ -35,12 +35,13 @@ export function FlowerGrid(props) {
       <SearchBar setFlowerList={setFlowerList} shuffledFlowers={shuffledFlowers}/>
       <div className="flex flex-wrap items-stretch px-8 pb-5">
         {
+          flowerList.length > 0 ?
           flowerList.map((flower, i) => (
             <FlowerCard key={i} flower={flower} onClick={() => {
                 setSelectedFlower(flower);
                 showModal();
             }}/>
-          ))
+          )) : <div className="m-auto mt-4">No flowers to show!</div>
         }
         <Modal 
             isOpen={modalOpen} 
