@@ -1,3 +1,5 @@
+import { flowers } from "../flowers/flowers";
+
 export function NavButtons(props) {
     const {view, setView} = props;
 
@@ -7,7 +9,7 @@ export function NavButtons(props) {
                 Searchable bouquet
             </NavButton>
             <NavButton onClick={() => setView("list")} active={view === "list"}>
-                Flower list
+                Flower list ({flowers.length})
             </NavButton>
             <NavButton onClick={() => setView("about")} active={view === "about"}>
                 Info
