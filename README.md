@@ -15,8 +15,5 @@ Runs the app in dev mode, which you can open on your localhost ([http://localhos
 ### `npm test`
 This might do something... but it might not. I haven't written anything beyond what `create-react-app` poops out, and I don't intend to, because I'm lazy. 
 
-### `npm run resizePhotos`
-This reads through the directory of photos in `src/flowers/photos` and resizes them to be `144 x 144` (cropping, then resizing), saving the new photos into `src/flowers/photos/small`. These small photos are used in the main flower grid, which improves the page response time by a lot.
-
-### `npm run generateFlowers`
-This reads the `flowers.tsv` file in the `scripts` folder, which contains flower information, and copies a declaration to your keyboard that is a list of flowers and their info. This is my janky way of avoiding having to host an external database, which should work while I don't have too many flowers.
+### `npm run addFlowers`
+This reads the `flowers.tsv` file in the `scripts` folder, which contains flower information, and saves a javascript object `flowers`, which the site loads flowers from. It also marks new flowers by recognizing photos that have just been added to the photos folder (by determining if their photos have been resized already) and resizes the new flower photos to be `144 x 144` (cropping, then resizing). Small photos are used in the main flower grid, which improves the page response tme by a lot.
