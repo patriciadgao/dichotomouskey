@@ -1,5 +1,5 @@
 import {LazyLoadImage} from "react-lazy-load-image-component";
-import { Value, ValueItalic } from './AttributeComponents';
+import { ValueItalic } from './AttributeComponents';
 import { Colorblock } from "./Colorblock";
 
 export const FlowerListItem = (props) => {

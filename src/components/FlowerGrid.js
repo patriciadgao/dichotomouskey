@@ -8,7 +8,6 @@ import {LazyLoadImage} from "react-lazy-load-image-component";
 import { Label, Value, ValueItalic } from './AttributeComponents';
 import { SearchBar } from './SearchBar';
 import { Colorblock } from './Colorblock';
-import { Chip } from './Chip';
 
 Modal.defaultStyles.overlay.backgroundColor = '#ffffff80';
 Modal.setAppElement('body');

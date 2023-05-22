@@ -1,15 +1,16 @@
 import { useState } from "react";
 import { flowers } from "../flowers/flowers";
+import { lastUpdated } from "../flowers/lastUpdated";
 
 export function NavButtons(props) {
     const {view, setView} = props;
     const [newSeen, setNewSeen] = useState(
-        JSON.parse(localStorage.getItem('new-seen')) || false
+        JSON.parse(localStorage.getItem('new-seen')) === lastUpdated || false
     );
 
     const viewList = () => {
         setView("list");
-        localStorage.setItem('new-seen', JSON.stringify(true));
+        localStorage.setItem('new-seen', JSON.stringify(lastUpdated));
         setNewSeen(true);
     };
 

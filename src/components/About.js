@@ -1,7 +1,7 @@
 export const About = () => (
     <div className="pb-8">
         <div className="p-8 pb-12 my-6 mx-12 py-5 bg-white flex flex-col items-center rounded-md space-y-4">
-                <img className="w-72 max-w-full" src={require("../bookpat.jpg")} title="heck yeah identifying flowers!"/>
+                <img alt="doodle of Pat" className="w-72 max-w-full" src={require("../bookpat.jpg")} title="heck yeah identifying flowers!"/>
         <div className="max-w-[450px] text-left">
             Hello! My name is Pat. Welcome to my flower list! <br/> <br/>
             I made this website because I've identified lots of flowers, 
