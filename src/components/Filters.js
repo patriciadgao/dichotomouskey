@@ -31,6 +31,8 @@ export function Filters(props) {
 function ColorSearch(props) {
     const {search, setSearch, options} = props;
 
+    console.log(options);
+
     const searchedColors = search.color.sort((a,b) => a.localeCompare(b));
     const searchedColorsSet = new Set(searchedColors);
 
