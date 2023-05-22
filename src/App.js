@@ -4,6 +4,7 @@ import React from 'react';
 import { About } from './components/About';
 import { FlowerList } from './components/FlowerList';
 import { NavButtons } from './components/NavButtons';
+import { Footer } from './components/Footer';
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
@@ -26,6 +27,7 @@ function App() {
       {view === "about" && <About/>}
       {view === "list" && <FlowerList/>}
       {view === "grid" && <FlowerGrid showModal={showModal} hideModal={hideModal} modalOpen={modalOpen}/>}
+      <Footer/>
     </div>
   );
 }

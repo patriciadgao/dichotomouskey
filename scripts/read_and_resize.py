@@ -2,6 +2,7 @@ from PIL import Image
 import os
 import csv
 import json
+from datetime import date
 
 flowers = []
 
@@ -83,3 +84,7 @@ with open("scripts/flowers.tsv") as file:
 
 with open('src/flowers/flowers.js', 'w') as flower_file:
     flower_file.write('export const flowers = %s;' % json.dumps(flowers))
+
+# write today's updated date into a constant for the footer
+with open('src/flowers/lastUpdated.js', 'w') as last_updated_file:
+    last_updated_file.write("export const lastUpdated = '" + str(date.today()) + "';")

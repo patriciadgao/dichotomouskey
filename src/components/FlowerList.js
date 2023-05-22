@@ -7,13 +7,13 @@ const alphabetizedFlowers = [...flowers].sort((a, b) => a.name.localeCompare(b.n
 const reversedFlowers = [...flowers].reverse();
 
 export function FlowerList() {
-    const [alphabetical, setAlphabetical] = useState(true);
+    const [alphabetical, setAlphabetical] = useState(false);
 
     return (
         <div>
             <div className="flex justify-center mt-6">
-                <Chip active={alphabetical} onClick={() => setAlphabetical(true)}>sort alphabetically</Chip>
-                <Chip active={!alphabetical} onClick={() => setAlphabetical(false)}>sort chronologically</Chip>
+                <Chip active={!alphabetical} onClick={() => setAlphabetical(false)}>sort{alphabetical ? "" : "ed"} chronologically</Chip>
+                <Chip active={alphabetical} onClick={() => setAlphabetical(true)}>sort{alphabetical ? "ed" : ""} alphabetically</Chip>
             </div>
         <div className="sm:px-8 pb-5 pt-3 divide-y-2">
             {alphabetical ? alphabetizedFlowers.map((flower, i) => (

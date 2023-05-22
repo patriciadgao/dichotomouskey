@@ -14,7 +14,7 @@ export const FlowerListItem = (props) => {
                 placeholder={<div className="w-36 h-36 bg-gray-100"></div>}
             />
             <div className="text-left">
-            <div className="font-bold"><h2>{flower.name}</h2></div>
+            <div className="font-bold flex space-x-1.5 items-center"><h2>{flower.name}</h2>{flower.new && <div className="w-2 h-2 rounded-full bg-pink-400"></div>}</div>
             <div className="text-xs">
                 <div className="flex flex-row space-x-2">
                     <ValueItalic>{flower.genus}</ValueItalic>
