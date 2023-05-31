@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dichotomouskey/static/css/main.ce498cea.css",
-    "main.js": "/dichotomouskey/static/js/main.916fb97a.js",
+    "main.js": "/dichotomouskey/static/js/main.95e3c3cb.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/Lewis flax.jpg": "/dichotomouskey/static/media/Lewis flax.cd625a0f59f2ab170f1d.jpg",
     "static/media/Persian onion.jpg": "/dichotomouskey/static/media/Persian onion.e7d4e4010cf56572b218.jpg",
@@ -138,6 +138,7 @@
     "static/media/red clover.jpg": "/dichotomouskey/static/media/red clover.c995473f197bc9618fd5.jpg",
     "static/media/painter's palette.jpg": "/dichotomouskey/static/media/painter's palette.8731747e1874ad053739.jpg",
     "static/media/natal plum.jpg": "/dichotomouskey/static/media/natal plum.ec388e9f1413cb939a49.jpg",
+    "static/media/verbena.jpg": "/dichotomouskey/static/media/verbena.6d7e4c9362d14616b774.jpg",
     "static/media/fire vine.jpg": "/dichotomouskey/static/media/fire vine.824b32c1e2b4447d3d80.jpg",
     "static/media/Egyptian starcluster.jpg": "/dichotomouskey/static/media/Egyptian starcluster.89e8e196efee07ba9c25.jpg",
     "static/media/tapertip onion.jpg": "/dichotomouskey/static/media/tapertip onion.ab2f82ca9358d321b71a.jpg",
@@ -160,11 +161,11 @@
     "static/media/Persian onion_small.jpg": "/dichotomouskey/static/media/Persian onion_small.dcbad96a1874451821e7.jpg",
     "index.html": "/dichotomouskey/index.html",
     "main.ce498cea.css.map": "/dichotomouskey/static/css/main.ce498cea.css.map",
-    "main.916fb97a.js.map": "/dichotomouskey/static/js/main.916fb97a.js.map",
+    "main.95e3c3cb.js.map": "/dichotomouskey/static/js/main.95e3c3cb.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ce498cea.css",
-    "static/js/main.916fb97a.js"
+    "static/js/main.95e3c3cb.js"
   ]
 }
