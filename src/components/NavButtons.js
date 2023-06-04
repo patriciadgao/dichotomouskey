@@ -32,12 +32,12 @@ export function NavButtons(props) {
 function NavButton(props) {
     const {onClick, active, isList = false, newSeen = true} = props;
 
-    const className = "rounded-full py-3 px-5 bg-white hover:opacity-100 hover:shadow transition-all" + (active ? " opacity-100 shadow" : " opacity-50")
+    const className = "rounded-full py-3 px-5 hover:bg-white hover:shadow transition-all" + (active ? " bg-white shadow" : " bg-pink-100")
 
     return (
         <div>
         <div className="hover:scale-105 relative inline-flex items-center rounded transition-all">
-          {isList && !newSeen && <span className="z-50 absolute -top-[-2px] -right-0.5 h-3 w-3 rounded-full bg-pink-400 flex justify-center items-center items"></span>}
+          {isList && !newSeen && <span className="absolute -top-[-2px] -right-0.5 h-3 w-3 rounded-full bg-pink-400 flex justify-center items-center items"></span>}
           <span><button onClick={onClick} className={className}>{props.children}</button></span>
         </div>
       </div>
