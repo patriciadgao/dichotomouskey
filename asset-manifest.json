@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/dichotomouskey/static/css/main.ce498cea.css",
-    "main.js": "/dichotomouskey/static/js/main.95e3c3cb.js",
+    "main.css": "/dichotomouskey/static/css/main.fda167ec.css",
+    "main.js": "/dichotomouskey/static/js/main.201cbf55.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/Lewis flax.jpg": "/dichotomouskey/static/media/Lewis flax.cd625a0f59f2ab170f1d.jpg",
     "static/media/Persian onion.jpg": "/dichotomouskey/static/media/Persian onion.e7d4e4010cf56572b218.jpg",
     "static/media/baby sun rose.jpg": "/dichotomouskey/static/media/baby sun rose.1a519cadc4344d48eae1.jpg",
+    "static/media/moonshine yarrow.jpg": "/dichotomouskey/static/media/moonshine yarrow.78d0cd2034884e9e72a4.jpg",
     "static/media/bluemink.jpg": "/dichotomouskey/static/media/bluemink.fcb6bcac67f796bf9daa.jpg",
+    "static/media/president clematis.jpg": "/dichotomouskey/static/media/president clematis.6f665402fda6afc17b16.jpg",
+    "static/media/red creeping thyme.jpg": "/dichotomouskey/static/media/red creeping thyme.6b31b215dbd290e31ee2.jpg",
+    "static/media/California poppy.jpg": "/dichotomouskey/static/media/California poppy.c1693ea324f5db3877c1.jpg",
     "static/media/Lotus japonicus.jpg": "/dichotomouskey/static/media/Lotus japonicus.f3c0756f2d96557ebcc6.jpg",
     "static/media/marigold.jpg": "/dichotomouskey/static/media/marigold.2e858abe848708dc61d2.jpg",
     "static/media/grape hyacinth.jpg": "/dichotomouskey/static/media/grape hyacinth.7fa3372a5f1292d90d99.jpg",
@@ -18,6 +22,7 @@
     "static/media/fairy fan-flower.jpg": "/dichotomouskey/static/media/fairy fan-flower.9b3fdf54e603c213044e.jpg",
     "static/media/bristly locust.jpg": "/dichotomouskey/static/media/bristly locust.e4196b0efbdaa991ecbe.jpg",
     "static/media/African lily.jpg": "/dichotomouskey/static/media/African lily.bbe5513f337bc0859ef5.jpg",
+    "static/media/red valerian.jpg": "/dichotomouskey/static/media/red valerian.1ed88cee9f1f794cc9c4.jpg",
     "static/media/Serenity Pink Magic African daisy.jpg": "/dichotomouskey/static/media/Serenity Pink Magic African daisy.d56e9406aaeb960ac68d.jpg",
     "static/media/peacock ginger.jpg": "/dichotomouskey/static/media/peacock ginger.2b4f408eb85882e6c34f.jpg",
     "static/media/cobblers pegs.jpg": "/dichotomouskey/static/media/cobblers pegs.ea8545a77c9dd437a509.jpg",
@@ -39,6 +44,7 @@
     "static/media/field bindweed.jpg": "/dichotomouskey/static/media/field bindweed.91447dae5647f5f0dd3c.jpg",
     "static/media/bluestars.jpg": "/dichotomouskey/static/media/bluestars.9d43b27d509462762e86.jpg",
     "static/media/false spikenard.jpg": "/dichotomouskey/static/media/false spikenard.9edadc4293504db661d7.jpg",
+    "static/media/lesser periwinkle.jpg": "/dichotomouskey/static/media/lesser periwinkle.9b344158fbf939299328.jpg",
     "static/media/Dalmation Peach foxglove.jpg": "/dichotomouskey/static/media/Dalmation Peach foxglove.db49d802fe412d779b9c.jpg",
     "static/media/pink honeysuckle.jpg": "/dichotomouskey/static/media/pink honeysuckle.b62e1296cba1247b5c63.jpg",
     "static/media/seep monkeyflower.jpg": "/dichotomouskey/static/media/seep monkeyflower.d65b7e4e49142c0f2d77.jpg",
@@ -52,6 +58,7 @@
     "static/media/purple bloody geranium.jpg": "/dichotomouskey/static/media/purple bloody geranium.e1d0f145244628a3f6e9.jpg",
     "static/media/peach verbena.jpg": "/dichotomouskey/static/media/peach verbena.d0f564ca696d502f9022.jpg",
     "static/media/calibrachoa.jpg": "/dichotomouskey/static/media/calibrachoa.f34bd4eaa28f72567f67.jpg",
+    "static/media/yellow avens.jpg": "/dichotomouskey/static/media/yellow avens.ef35da18ac341cbe95b5.jpg",
     "static/media/meadow death camas.jpg": "/dichotomouskey/static/media/meadow death camas.c11f8e3cab5c48d336e5.jpg",
     "static/media/chokecherry.jpg": "/dichotomouskey/static/media/chokecherry.743651e17e1fc19065dc.jpg",
     "static/media/bloody geranium.jpg": "/dichotomouskey/static/media/bloody geranium.4fca33de11f2e0e4783c.jpg",
@@ -160,12 +167,12 @@
     "static/media/Lewis flax_small.jpg": "/dichotomouskey/static/media/Lewis flax_small.86f109d1f31481233b0b.jpg",
     "static/media/Persian onion_small.jpg": "/dichotomouskey/static/media/Persian onion_small.dcbad96a1874451821e7.jpg",
     "index.html": "/dichotomouskey/index.html",
-    "main.ce498cea.css.map": "/dichotomouskey/static/css/main.ce498cea.css.map",
-    "main.95e3c3cb.js.map": "/dichotomouskey/static/js/main.95e3c3cb.js.map",
+    "main.fda167ec.css.map": "/dichotomouskey/static/css/main.fda167ec.css.map",
+    "main.201cbf55.js.map": "/dichotomouskey/static/js/main.201cbf55.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce498cea.css",
-    "static/js/main.95e3c3cb.js"
+    "static/css/main.fda167ec.css",
+    "static/js/main.201cbf55.js"
   ]
 }
