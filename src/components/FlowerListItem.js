@@ -1,11 +1,11 @@
-import {LazyLoadImage} from "react-lazy-load-image-component";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import { ValueItalic } from './AttributeComponents';
 import { Colorblock } from "./Colorblock";
 
 export const FlowerListItem = (props) => {
     const flower = props.flower;
     return (
-        <div onClick={props.onClick} className="shadow-[0_0_2px_0px_rgba(0,0,0,0.1)] bg-white rounded-sm p-6 m-2.5 max-w-[750px] m-auto">
+        <div onClick={props.onClick} className="shadow-[0_0_2px_0px_rgba(0,0,0,0.1)] bg-white rounded-sm p-6 max-w-[750px] m-auto hover:cursor-pointer hover:bg-neutral-50">
             <div className="flex flex-row items-top space-x-4">
             <LazyLoadImage
                 alt={"image of " + flower.name}
