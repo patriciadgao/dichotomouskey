@@ -2,13 +2,16 @@ import { useState } from "react";
 import { flowers } from "../flowers/flowers";
 import { Chip } from "./Chip";
 import { FlowerListItem } from "./FlowerListItem";
+import { FlowerModal } from "./FlowerModal";
 
 const alphabetizedFlowers = [...flowers].sort((a, b) => a.name.localeCompare(b.name));
 const reversedFlowers = [...flowers].reverse();
 
-export function FlowerList() {
+export function FlowerList(props) {
     const [alphabetical, setAlphabetical] = useState(false);
     const [descriptionsHidden, setDescriptionsHidden] = useState(false);
+    const { showModal, hideModal, modalOpen } = props;
+    const [selectedFlower, setSelectedFlower] = useState(undefined);
 
     return (
         <div>
@@ -26,11 +29,33 @@ export function FlowerList() {
             </div>
             <div className="sm:px-8 pb-5 pt-3 divide-y-2">
                 {alphabetical ? alphabetizedFlowers.map((flower, i) => (
-                    <FlowerListItem flower={flower} key={i} hideDescription={descriptionsHidden} />
+                    <FlowerListItem
+                        flower={flower}
+                        key={i}
+                        hideDescription={descriptionsHidden}
+                        onClick={() => {
+                            setSelectedFlower(flower);
+                            showModal();
+                        }}
+                    />
                 )) : reversedFlowers.map((flower, i) => (
-                    <FlowerListItem flower={flower} key={i} hideDescription={descriptionsHidden} />
+                    <FlowerListItem
+                        flower={flower}
+                        key={i}
+                        hideDescription={descriptionsHidden}
+                        onClick={() => {
+                            setSelectedFlower(flower);
+                            showModal();
+                        }}
+                    />
                 ))}
             </div>
+            <FlowerModal
+                modalOpen={modalOpen}
+                hideModal={hideModal}
+                selectedFlower={selectedFlower}
+                setSelectedFlower={setSelectedFlower}
+            />
         </div>
     )
 } 
