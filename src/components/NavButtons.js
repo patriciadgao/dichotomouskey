@@ -15,7 +15,7 @@ export function NavButtons(props) {
     };
 
     return (
-        <div className="flex items-center justify-center space-x-3 text-sm">
+        <div className="sm:flex space-y-3 items-center justify-center sm:space-y-0 sm:space-x-3 text-sm">
             <NavButton onClick={() => setView("grid")} active={view === "grid"}>
                 Searchable bouquet
             </NavButton>
