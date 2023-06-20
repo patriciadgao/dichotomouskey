@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dichotomouskey/static/css/main.a4f1538e.css",
-    "main.js": "/dichotomouskey/static/js/main.04f3281c.js",
+    "main.css": "/dichotomouskey/static/css/main.865a11bb.css",
+    "main.js": "/dichotomouskey/static/js/main.36b249a0.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/Lewis flax.jpg": "/dichotomouskey/static/media/Lewis flax.cd625a0f59f2ab170f1d.jpg",
     "static/media/Persian onion.jpg": "/dichotomouskey/static/media/Persian onion.e7d4e4010cf56572b218.jpg",
     "static/media/baby sun rose.jpg": "/dichotomouskey/static/media/baby sun rose.1a519cadc4344d48eae1.jpg",
     "static/media/moonshine yarrow.jpg": "/dichotomouskey/static/media/moonshine yarrow.78d0cd2034884e9e72a4.jpg",
-    "static/media/bluemink.jpg": "/dichotomouskey/static/media/bluemink.fcb6bcac67f796bf9daa.jpg",
     "static/media/president clematis.jpg": "/dichotomouskey/static/media/president clematis.6f665402fda6afc17b16.jpg",
     "static/media/red creeping thyme.jpg": "/dichotomouskey/static/media/red creeping thyme.6b31b215dbd290e31ee2.jpg",
+    "static/media/bluemink.jpg": "/dichotomouskey/static/media/bluemink.edacd527c70fe9a0b07c.jpg",
     "static/media/California poppy.jpg": "/dichotomouskey/static/media/California poppy.c1693ea324f5db3877c1.jpg",
     "static/media/Lotus japonicus.jpg": "/dichotomouskey/static/media/Lotus japonicus.f3c0756f2d96557ebcc6.jpg",
     "static/media/marigold.jpg": "/dichotomouskey/static/media/marigold.2e858abe848708dc61d2.jpg",
@@ -64,6 +64,7 @@
     "static/media/bloody geranium.jpg": "/dichotomouskey/static/media/bloody geranium.4fca33de11f2e0e4783c.jpg",
     "static/media/dandelion.jpg": "/dichotomouskey/static/media/dandelion.3e9ae641c1927e5a7fe7.jpg",
     "static/media/lilac.jpg": "/dichotomouskey/static/media/lilac.43ce0e2973453647e590.jpg",
+    "static/media/snow-in-summer.jpg": "/dichotomouskey/static/media/snow-in-summer.c6329cf00e65dd795136.jpg",
     "static/media/common stork's-bill.jpg": "/dichotomouskey/static/media/common stork's-bill.b01ffeee82678e3487ea.jpg",
     "static/media/firewheel.jpg": "/dichotomouskey/static/media/firewheel.8bf2674c312d48806dc4.jpg",
     "static/media/western wallflower.jpg": "/dichotomouskey/static/media/western wallflower.3fa6e225b35dad8aa236.jpg",
@@ -112,7 +113,9 @@
     "static/media/nipplewort.jpg": "/dichotomouskey/static/media/nipplewort.84eb03dd87ddd7ea745f.jpg",
     "static/media/crown of thorns.jpg": "/dichotomouskey/static/media/crown of thorns.4b88a254d2c9f32bb605.jpg",
     "static/media/crested cockscomb.jpg": "/dichotomouskey/static/media/crested cockscomb.0da7014285a8bcaf0ce9.jpg",
+    "static/media/sweet William.jpg": "/dichotomouskey/static/media/sweet William.a998c20572e52cfe127e.jpg",
     "static/media/heartleaf arnica.jpg": "/dichotomouskey/static/media/heartleaf arnica.87ad78058976f8d8f983.jpg",
+    "static/media/coral bells.jpg": "/dichotomouskey/static/media/coral bells.6b4ae518824532881be8.jpg",
     "static/media/Miquel's mazus.jpg": "/dichotomouskey/static/media/Miquel's mazus.ae6c1951f061e228258b.jpg",
     "static/media/fire-star orchid.jpg": "/dichotomouskey/static/media/fire-star orchid.8f8a9cd5d930abd6a40b.jpg",
     "static/media/crownvetch.jpg": "/dichotomouskey/static/media/crownvetch.e61aa14f534462ee25b9.jpg",
@@ -167,12 +170,12 @@
     "static/media/Lewis flax_small.jpg": "/dichotomouskey/static/media/Lewis flax_small.86f109d1f31481233b0b.jpg",
     "static/media/Persian onion_small.jpg": "/dichotomouskey/static/media/Persian onion_small.dcbad96a1874451821e7.jpg",
     "index.html": "/dichotomouskey/index.html",
-    "main.a4f1538e.css.map": "/dichotomouskey/static/css/main.a4f1538e.css.map",
-    "main.04f3281c.js.map": "/dichotomouskey/static/js/main.04f3281c.js.map",
+    "main.865a11bb.css.map": "/dichotomouskey/static/css/main.865a11bb.css.map",
+    "main.36b249a0.js.map": "/dichotomouskey/static/js/main.36b249a0.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a4f1538e.css",
-    "static/js/main.04f3281c.js"
+    "static/css/main.865a11bb.css",
+    "static/js/main.36b249a0.js"
   ]
 }
