@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dichotomouskey/static/css/main.9fd09dbc.css",
-    "main.js": "/dichotomouskey/static/js/main.da1004ff.js",
+    "main.js": "/dichotomouskey/static/js/main.0176f644.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/Lewis flax.jpg": "/dichotomouskey/static/media/Lewis flax.cd625a0f59f2ab170f1d.jpg",
     "static/media/Persian onion.jpg": "/dichotomouskey/static/media/Persian onion.e7d4e4010cf56572b218.jpg",
@@ -99,6 +99,8 @@
     "static/media/creeping Oregon grape.jpg": "/dichotomouskey/static/media/creeping Oregon grape.62ea973cfa3533eb2f73.jpg",
     "static/media/lobelia.jpg": "/dichotomouskey/static/media/lobelia.8dd54309eaf58aef217d.jpg",
     "static/media/society garlic.jpg": "/dichotomouskey/static/media/society garlic.a154a753672c3bc1c339.jpg",
+    "static/media/ragwort.jpg": "/dichotomouskey/static/media/ragwort.f071e12f997bec3f66b3.jpg",
+    "static/media/houndstooth.jpg": "/dichotomouskey/static/media/houndstooth.f768b7d2e3af7916bb8e.jpg",
     "static/media/valerian.jpg": "/dichotomouskey/static/media/valerian.cccceaef35b85f24c6ae.jpg",
     "static/media/Japanese wisteria.jpg": "/dichotomouskey/static/media/Japanese wisteria.88e18ecd802c52ab57e1.jpg",
     "static/media/heucherella.jpg": "/dichotomouskey/static/media/heucherella.0501a234b6d9ea124263.jpg",
@@ -130,6 +132,7 @@
     "static/media/fringed pink.jpg": "/dichotomouskey/static/media/fringed pink.6f7ac6bb94b0a2c91227.jpg",
     "static/media/fire-star orchid.jpg": "/dichotomouskey/static/media/fire-star orchid.8f8a9cd5d930abd6a40b.jpg",
     "static/media/crownvetch.jpg": "/dichotomouskey/static/media/crownvetch.e61aa14f534462ee25b9.jpg",
+    "static/media/camas.jpg": "/dichotomouskey/static/media/camas.7077bb77a088dcd2dc5e.jpg",
     "static/media/narrow-leaf penstemon.jpg": "/dichotomouskey/static/media/narrow-leaf penstemon.2169e655f8c324783176.jpg",
     "static/media/Greve's orchid tree.jpg": "/dichotomouskey/static/media/Greve's orchid tree.9aa7f6e0fcd08b57bad7.jpg",
     "static/media/cornflower.jpg": "/dichotomouskey/static/media/cornflower.10a760758045defcaca1.jpg",
@@ -186,11 +189,11 @@
     "static/media/Persian onion_small.jpg": "/dichotomouskey/static/media/Persian onion_small.dcbad96a1874451821e7.jpg",
     "index.html": "/dichotomouskey/index.html",
     "main.9fd09dbc.css.map": "/dichotomouskey/static/css/main.9fd09dbc.css.map",
-    "main.da1004ff.js.map": "/dichotomouskey/static/js/main.da1004ff.js.map",
+    "main.0176f644.js.map": "/dichotomouskey/static/js/main.0176f644.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9fd09dbc.css",
-    "static/js/main.da1004ff.js"
+    "static/js/main.0176f644.js"
   ]
 }
