@@ -12,7 +12,7 @@ function App() {
   const [modalOpen, setModalOpen] = useState(false);
   const [view, setView] = useState("grid");
   const [bgColor, setBgColor] = useState(
-    localStorage.getItem('bg-color') ?? "#afdbb7"
+    localStorage.getItem('bg-color') ?? "bg-green"
   );
 
   const changeBgColor = useCallback((color) => {
