@@ -1,6 +1,6 @@
 import { faChevronDown, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState, useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Filters } from "./Filters";
 
 function searchEverything(search, flowers) {
@@ -55,7 +55,7 @@ function searchEverything(search, flowers) {
 }
 
 export function SearchBar(props) {
-    const {setFlowerList, shuffledFlowers} = props;
+    const { setFlowerList, shuffledFlowers } = props;
     const [search, setSearch] = useState({
         text: "",
         color: [],
@@ -88,45 +88,45 @@ export function SearchBar(props) {
 
     const handleSearch = (e) => {
         e.preventDefault();
-        setSearch({...search, text: e.target.value});
+        setSearch({ ...search, text: e.target.value });
     };
 
     useEffect(() => {
         const result = searchEverything(search, searchableFlowers);
         setFlowerList(result.flowerList);
-        setSearchOptions(result.searchOptions);        
+        setSearchOptions(result.searchOptions);
     }, [search, searchableFlowers, setFlowerList]);
 
     return (
         <div>
-        <div className="flex justify-center">
-        <div className="flex justify-center flex-wrap items-center my-4 mx-12 space-x-4 sm:max-w-[800px] sm:w-[60vw]">
-            <input
-                type="text"
-                placeholder="Search by name, color, etc..."
-                onChange={handleSearch}
-                value={search.text}
-                className="transition-all opacity-75 sm:min-w-[295px] min-w-full hover:opacity-100 transition-all focus:opacity-100 focus:ring-2 grow border-0 focus:ring-pink-300 shadow outline-0 py-3 px-5 m-2 rounded-full text-slate-800"
-            />
-            <div className="m-2">
-            <AdvancedButton onClick={() => setAdvancedSearchOpen(!advancedSearchOpen)}>
-                <div>{advancedSearchOpen ? "Hide filters" : "Show filters"}</div>
-                <div>
-                <FontAwesomeIcon icon={advancedSearchOpen ? faChevronDown : faChevronRight} className="text-sm"/>
+            <div className="flex justify-center">
+                <div className="flex justify-center flex-wrap items-center my-4 mx-12 space-x-4 sm:max-w-[800px] sm:w-[60vw]">
+                    <input
+                        type="text"
+                        placeholder="Search by name, color, etc..."
+                        onChange={handleSearch}
+                        value={search.text}
+                        className="opacity-75 sm:min-w-[295px] min-w-full hover:opacity-100 transition-all focus:opacity-100 focus:ring-2 grow border-0 focus:ring-pink-300 shadow outline-0 py-3 px-5 m-2 rounded-full text-slate-800"
+                    />
+                    <div className="m-2">
+                        <AdvancedButton onClick={() => setAdvancedSearchOpen(!advancedSearchOpen)}>
+                            <div>{advancedSearchOpen ? "Hide filters" : "Show filters"}</div>
+                            <div>
+                                <FontAwesomeIcon icon={advancedSearchOpen ? faChevronDown : faChevronRight} className="text-sm" />
+                            </div>
+                        </AdvancedButton>
+                    </div>
                 </div>
-            </AdvancedButton>
             </div>
-        </div>
-        </div>
             {
-                advancedSearchOpen && <Filters search={search} setSearch={setSearch} searchOptions={searchOptions}/>
+                advancedSearchOpen && <Filters search={search} setSearch={setSearch} searchOptions={searchOptions} />
             }
         </div>
     )
 }
 
 function AdvancedButton(props) {
-    const {onClick} = props;
+    const { onClick } = props;
 
     return (
         <button onClick={onClick} className="bg-white flex hover:shadow focus:outline-0 font-medium transition-all hover:scale-105 hover:cursor-pointer rounded-full py-3 px-5 space-x-1.5">{props.children}</button>

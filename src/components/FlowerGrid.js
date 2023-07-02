@@ -38,7 +38,7 @@ export function FlowerGrid(props) {
           className="w-5 h-5 checked:text-pink-300 outline-0 border-none rounded-sm focus:ring-0 shadow"
         /><div>show photos only</div>
       </div>
-      <div className="flex flex-wrap items-stretch px-8 pb-5">
+      <div className="flex flex-wrap justify-center px-8 pb-5">
         {
           flowerList.length > 0 ?
             (photosOnly ? flowerList.map((flower, i) => (
