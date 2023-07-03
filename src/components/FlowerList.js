@@ -17,7 +17,7 @@ export function FlowerList(props) {
     return (
         <div>
             <div className="flex justify-center mt-6">
-                <Chip active={sortStyle === 'time'} onClick={() => setSortStyle('time')}>sort{sortStyle === 'time' ? "" : "ed"} chronologically</Chip>
+                <Chip active={sortStyle === 'time'} onClick={() => setSortStyle('time')}>sort{sortStyle === 'time' ? "ed" : ""} chronologically</Chip>
                 <Chip active={sortStyle === 'name'} onClick={() => setSortStyle('name')}>sort{sortStyle === 'name' ? "ed" : ""} by name</Chip>
                 <Chip active={sortStyle === 'genus'} onClick={() => setSortStyle('genus')}>sort{sortStyle === 'genus' ? "ed" : ""} by genus</Chip>
             </div>
