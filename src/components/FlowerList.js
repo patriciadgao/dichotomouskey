@@ -5,10 +5,11 @@ import { FlowerListItem } from "./FlowerListItem";
 import { FlowerModal } from "./FlowerModal";
 
 const alphabetizedFlowers = [...flowers].sort((a, b) => a.name.localeCompare(b.name));
+const flowersAlphabetizedByGenus = [...flowers].sort((a, b) => a.genus.localeCompare(b.genus));
 const reversedFlowers = [...flowers].reverse();
 
 export function FlowerList(props) {
-    const [alphabetical, setAlphabetical] = useState(false);
+    const [sortStyle, setSortStyle] = useState('time');
     const [descriptionsHidden, setDescriptionsHidden] = useState(false);
     const { showModal, hideModal, modalOpen } = props;
     const [selectedFlower, setSelectedFlower] = useState(undefined);
@@ -16,8 +17,9 @@ export function FlowerList(props) {
     return (
         <div>
             <div className="flex justify-center mt-6">
-                <Chip active={!alphabetical} onClick={() => setAlphabetical(false)}>sort{alphabetical ? "" : "ed"} chronologically</Chip>
-                <Chip active={alphabetical} onClick={() => setAlphabetical(true)}>sort{alphabetical ? "ed" : ""} alphabetically</Chip>
+                <Chip active={sortStyle === 'time'} onClick={() => setSortStyle('time')}>sort{sortStyle === 'time' ? "" : "ed"} chronologically</Chip>
+                <Chip active={sortStyle === 'name'} onClick={() => setSortStyle('name')}>sort{sortStyle === 'name' ? "ed" : ""} by name</Chip>
+                <Chip active={sortStyle === 'genus'} onClick={() => setSortStyle('genus')}>sort{sortStyle === 'genus' ? "ed" : ""} by genus</Chip>
             </div>
             <div className="px-4 sm:px-8 flex justify-end mt-2 space-x-2 items-center hover:cursor-pointer max-w-[750px] m-auto" onClick={() => setDescriptionsHidden(!descriptionsHidden)}>
                 <input
@@ -28,7 +30,7 @@ export function FlowerList(props) {
                 /><div>hide descriptions</div>
             </div>
             <div className="sm:px-8 pb-5 pt-3 divide-y-2">
-                {alphabetical ? alphabetizedFlowers.map((flower, i) => (
+                {sortStyle === 'name' ? alphabetizedFlowers.map((flower, i) => (
                     <FlowerListItem
                         flower={flower}
                         key={i}
@@ -38,7 +40,17 @@ export function FlowerList(props) {
                             showModal();
                         }}
                     />
-                )) : reversedFlowers.map((flower, i) => (
+                )) : sortStyle === 'time' ? reversedFlowers.map((flower, i) => (
+                    <FlowerListItem
+                        flower={flower}
+                        key={i}
+                        hideDescription={descriptionsHidden}
+                        onClick={() => {
+                            setSelectedFlower(flower);
+                            showModal();
+                        }}
+                    />
+                )) : flowersAlphabetizedByGenus.map((flower, i) => (
                     <FlowerListItem
                         flower={flower}
                         key={i}
