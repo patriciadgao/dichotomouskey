@@ -23,7 +23,7 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    if (location.pathname === '/dichotomouskey') {
+    if (location.pathname === '/') {
       navigate('grid')
     }
   }, [location, navigate])
