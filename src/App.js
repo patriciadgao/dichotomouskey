@@ -3,7 +3,7 @@ import { About } from './components/About';
 import { Colorblock, getHexCode } from './components/Colorblock';
 import { FlowerGrid } from './components/FlowerGrid';
 import { FlowerList } from './components/FlowerList';
-import { Footer } from './components/Footer';
+import { LastUpdatedInfo } from './components/LastUpdatedInfo';
 import { NavButtons } from './components/NavButtons';
 
 const bgOptions = ["bg-pink", "bg-green", "bg-blue"];
@@ -39,14 +39,14 @@ function App() {
           </div>
         ))}
       </div>
-      <header className="text-4xl pt-16 pb-5">
-        <h1 id="webtitle">Pat's Flowers</h1>
+      <header>
+        <h1 id="webtitle" className="text-4xl pt-16 pb-3">Pat's Flowers</h1>
+        <LastUpdatedInfo/>
       </header>
       <NavButtons setView={setView} view={view} bgColor={bgColor} />
       {view === "about" && <About />}
       {view === "list" && <FlowerList showModal={showModal} hideModal={hideModal} modalOpen={modalOpen} />}
       {view === "grid" && <FlowerGrid showModal={showModal} hideModal={hideModal} modalOpen={modalOpen} />}
-      <Footer />
     </div>
   );
 }
