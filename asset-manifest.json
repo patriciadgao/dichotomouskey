@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dichotomouskey/static/css/main.b203ed3a.css",
-    "main.js": "/dichotomouskey/static/js/main.fd5e0e9e.js",
+    "main.js": "/dichotomouskey/static/js/main.ec2906ea.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/Lewis flax.jpg": "/dichotomouskey/static/media/Lewis flax.cd625a0f59f2ab170f1d.jpg",
     "static/media/Adam's needle.jpg": "/dichotomouskey/static/media/Adam's needle.27a4a85a9c83486b0af5.jpg",
@@ -55,7 +55,7 @@
     "static/media/false spikenard.jpg": "/dichotomouskey/static/media/false spikenard.9edadc4293504db661d7.jpg",
     "static/media/lesser periwinkle.jpg": "/dichotomouskey/static/media/lesser periwinkle.9b344158fbf939299328.jpg",
     "static/media/Dalmation Peach foxglove.jpg": "/dichotomouskey/static/media/Dalmation Peach foxglove.db49d802fe412d779b9c.jpg",
-    "static/media/Russian sage.jpg": "/dichotomouskey/static/media/Russian sage.a27fe8468677c0a1c959.jpg",
+    "static/media/Nanho Purple butterfly bush.jpg": "/dichotomouskey/static/media/Nanho Purple butterfly bush.a27fe8468677c0a1c959.jpg",
     "static/media/pink honeysuckle.jpg": "/dichotomouskey/static/media/pink honeysuckle.b62e1296cba1247b5c63.jpg",
     "static/media/seep monkeyflower.jpg": "/dichotomouskey/static/media/seep monkeyflower.d65b7e4e49142c0f2d77.jpg",
     "static/media/shoeblackplant.jpg": "/dichotomouskey/static/media/shoeblackplant.0df199cd7b318ac4171f.jpg",
@@ -89,7 +89,7 @@
     "static/media/milkvetch.jpg": "/dichotomouskey/static/media/milkvetch.e6e67d52ecf4c292d505.jpg",
     "static/media/water forget-me-not.jpg": "/dichotomouskey/static/media/water forget-me-not.86927703fe6a846ed20e.jpg",
     "static/media/musk-mallow.jpg": "/dichotomouskey/static/media/musk-mallow.3dd16645a5fa20742bcd.jpg",
-    "static/media/Nanho Purple butterfly bush.jpg": "/dichotomouskey/static/media/Nanho Purple butterfly bush.f881c918e822cd9ec2bd.jpg",
+    "static/media/Russian sage.jpg": "/dichotomouskey/static/media/Russian sage.f881c918e822cd9ec2bd.jpg",
     "static/media/spreading phlox.jpg": "/dichotomouskey/static/media/spreading phlox.f7872361dd0991471212.jpg",
     "static/media/lavender.jpg": "/dichotomouskey/static/media/lavender.6875ff4c2926c43b3828.jpg",
     "static/media/yellow salsify.jpg": "/dichotomouskey/static/media/yellow salsify.099d2a13f28033647ded.jpg",
@@ -225,11 +225,11 @@
     "static/media/Persian onion_small.jpg": "/dichotomouskey/static/media/Persian onion_small.dcbad96a1874451821e7.jpg",
     "index.html": "/dichotomouskey/index.html",
     "main.b203ed3a.css.map": "/dichotomouskey/static/css/main.b203ed3a.css.map",
-    "main.fd5e0e9e.js.map": "/dichotomouskey/static/js/main.fd5e0e9e.js.map",
+    "main.ec2906ea.js.map": "/dichotomouskey/static/js/main.ec2906ea.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b203ed3a.css",
-    "static/js/main.fd5e0e9e.js"
+    "static/js/main.ec2906ea.js"
   ]
 }
