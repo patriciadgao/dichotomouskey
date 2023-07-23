@@ -19,7 +19,7 @@ export const FlowerListItem = (props) => {
                     <div className="text-xs">
                         <div className="flex flex-row space-x-2">
                             <ValueItalic>{flower.genus}</ValueItalic>
-                            <div className="flex items-center space-x-1.5">{flower.colors.map((c) => <Colorblock nameOfColor={c} />)}</div>
+                            <div className="flex items-center space-x-1.5">{flower.colors.map((c, i) => <Colorblock key={i} nameOfColor={c} />)}</div>
                         </div>
                         <div>{flower.size} {flower.shape} flower</div>
                         {!hideDescription && (<><hr className="sm:my-2 mt-1.5 mb-0" /><p className="text-sm hidden sm:block">{flower.description}</p></>)}

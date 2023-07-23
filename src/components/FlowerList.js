@@ -1,4 +1,5 @@
-import { useCallback, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import { flowers } from "../flowers/flowers";
 import { Chip } from "./Chip";
 import { FlowerListItem } from "./FlowerListItem";
@@ -8,18 +9,29 @@ const alphabetizedFlowers = [...flowers].sort((a, b) => a.name.localeCompare(b.n
 const flowersAlphabetizedByGenus = [...flowers].sort((a, b) => a.genus.localeCompare(b.genus));
 const reversedFlowers = [...flowers].reverse();
 
-export function FlowerList(props) {
+export function FlowerList() {
     const [sortStyle, setSortStyle] = useState(
         localStorage.getItem('sort-style') ?? 'time'
     );
+    let params = useParams();
+    let {"*": flowerName} = params;
+
+    const navigate = useNavigate();
+
+    const flower = useMemo(() => {
+        return flowers.find((f) => f.name === flowerName) ?? undefined
+    }, [flowerName]);
+
     const [descriptionsHidden, setDescriptionsHidden] = useState(false);
-    const { showModal, hideModal, modalOpen } = props;
-    const [selectedFlower, setSelectedFlower] = useState(undefined);
 
     const changeSortStyle = useCallback((sortStyle) => {
         setSortStyle(sortStyle);
         localStorage.setItem('sort-style', sortStyle);
     }, []);
+
+    const viewFlower = (flower) => {
+        navigate(flower.name);
+    };
 
     return (
         <div>
@@ -42,39 +54,25 @@ export function FlowerList(props) {
                         flower={flower}
                         key={i}
                         hideDescription={descriptionsHidden}
-                        onClick={() => {
-                            setSelectedFlower(flower);
-                            showModal();
-                        }}
+                        onClick={() => viewFlower(flower)}
                     />
                 )) : sortStyle === 'time' ? reversedFlowers.map((flower, i) => (
                     <FlowerListItem
                         flower={flower}
                         key={i}
                         hideDescription={descriptionsHidden}
-                        onClick={() => {
-                            setSelectedFlower(flower);
-                            showModal();
-                        }}
+                        onClick={() => viewFlower(flower)}
                     />
                 )) : flowersAlphabetizedByGenus.map((flower, i) => (
                     <FlowerListItem
                         flower={flower}
                         key={i}
                         hideDescription={descriptionsHidden}
-                        onClick={() => {
-                            setSelectedFlower(flower);
-                            showModal();
-                        }}
+                        onClick={() => viewFlower(flower)}
                     />
                 ))}
             </div>
-            <FlowerModal
-                modalOpen={modalOpen}
-                hideModal={hideModal}
-                selectedFlower={selectedFlower}
-                setSelectedFlower={setSelectedFlower}
-            />
+            <FlowerModal selectedFlower={flower} />
         </div>
     )
 } 

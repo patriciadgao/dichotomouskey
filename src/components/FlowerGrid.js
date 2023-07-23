@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Modal from 'react-modal';
+import { useNavigate, useParams } from "react-router-dom";
 import { flowers } from "../flowers/flowers.js";
 import { FlowerCard, FlowerCardPhotoOnly } from './FlowerCard';
 import { FlowerModal } from './FlowerModal';
@@ -22,10 +23,21 @@ const shuffleArray = array => {
 const shuffledFlowers = shuffleArray([...flowers]);
 
 export function FlowerGrid(props) {
-  const { showModal, hideModal, modalOpen } = props;
-  const [selectedFlower, setSelectedFlower] = useState(undefined);
   const [flowerList, setFlowerList] = useState([]);
   const [photosOnly, setPhotosOnly] = useState(false);
+
+  let params = useParams();
+    let {"*": flowerName} = params;
+
+    const navigate = useNavigate();
+
+    const flower = useMemo(() => {
+        return flowers.find((f) => f.name === flowerName) ?? undefined
+    }, [flowerName]);
+
+    const viewFlower = (flower) => {
+        navigate(flower.name);
+    };
 
   return (
     <div>
@@ -42,23 +54,12 @@ export function FlowerGrid(props) {
         {
           flowerList.length > 0 ?
             (photosOnly ? flowerList.map((flower, i) => (
-              <FlowerCardPhotoOnly key={i} flower={flower} onClick={() => {
-                setSelectedFlower(flower);
-                showModal();
-              }} />
+              <FlowerCardPhotoOnly key={i} flower={flower} onClick={() => viewFlower(flower)} />
             )) : flowerList.map((flower, i) => (
-              <FlowerCard key={i} flower={flower} onClick={() => {
-                setSelectedFlower(flower);
-                showModal();
-              }} />
+              <FlowerCard key={i} flower={flower} onClick={() => viewFlower(flower)} />
             ))) : <div className="m-auto mt-4">No flowers to show!</div>
         }
-        <FlowerModal
-          modalOpen={modalOpen}
-          hideModal={hideModal}
-          selectedFlower={selectedFlower}
-          setSelectedFlower={setSelectedFlower}
-        />
+        <FlowerModal selectedFlower={flower}/>
       </div>
     </div>
   );

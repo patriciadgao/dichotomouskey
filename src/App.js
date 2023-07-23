@@ -1,4 +1,5 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
+import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { About } from './components/About';
 import { Colorblock, getHexCode } from './components/Colorblock';
 import { FlowerGrid } from './components/FlowerGrid';
@@ -9,8 +10,6 @@ import { NavButtons } from './components/NavButtons';
 const bgOptions = ["bg-pink", "bg-green", "bg-blue"];
 
 function App() {
-  const [modalOpen, setModalOpen] = useState(false);
-  const [view, setView] = useState("grid");
   const [bgColor, setBgColor] = useState(
     localStorage.getItem('bg-color') ?? "bg-green"
   );
@@ -20,13 +19,14 @@ function App() {
     localStorage.setItem('bg-color', color);
   }, []);
 
-  function showModal() {
-    setModalOpen(true);
-  }
+  const navigate = useNavigate();
+  const location = useLocation();
 
-  function hideModal() {
-    setModalOpen(false);
-  }
+  useEffect(() => {
+    if (location.pathname === '/dichotomouskey') {
+      navigate('grid')
+    }
+  }, [location, navigate])
 
   return (
     <div className="text-center text-slate-600 min-h-screen" style={{ backgroundColor: getHexCode(bgColor) }}>
@@ -43,10 +43,12 @@ function App() {
         <h1 id="webtitle" className="text-4xl pt-16 pb-3">Pat's Flowers</h1>
         <LastUpdatedInfo/>
       </header>
-      <NavButtons setView={setView} view={view} bgColor={bgColor} />
-      {view === "about" && <About />}
-      {view === "list" && <FlowerList showModal={showModal} hideModal={hideModal} modalOpen={modalOpen} />}
-      {view === "grid" && <FlowerGrid showModal={showModal} hideModal={hideModal} modalOpen={modalOpen} />}
+      <NavButtons bgColor={bgColor} />
+      <Routes>
+        <Route path="about" element={<About/>}/>
+        <Route path="list/*" element={<FlowerList/>}/>
+        <Route path="grid/*" element={<FlowerGrid/>}/>
+      </Routes>
     </div>
   );
 }

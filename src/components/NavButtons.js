@@ -1,29 +1,33 @@
 import { useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { flowers } from "../flowers/flowers";
 import { lastUpdated } from "../flowers/lastUpdated";
 import { getLightHexCode } from "./Colorblock";
 
 export function NavButtons(props) {
-    const { view, setView, bgColor } = props;
+    const { bgColor } = props;
     const [newSeen, setNewSeen] = useState(
         JSON.parse(localStorage.getItem('new-seen')) === lastUpdated || false
     );
 
+    const navigate = useNavigate();
+    const location = useLocation();
+
     const viewList = () => {
-        setView("list");
+        navigate("list");
         localStorage.setItem('new-seen', JSON.stringify(lastUpdated));
         setNewSeen(true);
     };
 
     return (
         <div className="sm:flex space-y-3 items-center justify-center sm:space-y-0 sm:space-x-3 text-sm">
-            <NavButton bgColor={bgColor} onClick={() => setView("grid")} active={view === "grid"}>
+            <NavButton bgColor={bgColor} onClick={() => navigate("grid")} active={location.pathname.includes('grid')}>
                 Searchable bouquet
             </NavButton>
-            <NavButton bgColor={bgColor} onClick={() => viewList()} active={view === "list"} isList newSeen={newSeen}>
+            <NavButton bgColor={bgColor} onClick={() => viewList()} active={location.pathname.includes('list')} isList newSeen={newSeen}>
                 Flower list ({flowers.length})
             </NavButton>
-            <NavButton bgColor={bgColor} onClick={() => setView("about")} active={view === "about"}>
+            <NavButton bgColor={bgColor} onClick={() => navigate("about")} active={location.pathname.includes('about')}>
                 Info
             </NavButton>
         </div>
