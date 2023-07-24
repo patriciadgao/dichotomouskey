@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dichotomouskey/static/css/main.b203ed3a.css",
-    "main.js": "/dichotomouskey/static/js/main.ec2906ea.js",
+    "main.js": "/dichotomouskey/static/js/main.e2a603f3.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/Lewis flax.jpg": "/dichotomouskey/static/media/Lewis flax.cd625a0f59f2ab170f1d.jpg",
     "static/media/Adam's needle.jpg": "/dichotomouskey/static/media/Adam's needle.27a4a85a9c83486b0af5.jpg",
@@ -112,7 +112,7 @@
     "static/media/Queen Anne's lace.jpg": "/dichotomouskey/static/media/Queen Anne's lace.d408942d5858770a98d9.jpg",
     "static/media/showy milkweed.jpg": "/dichotomouskey/static/media/showy milkweed.e4f8df28000bb2220e7b.jpg",
     "static/media/creeping Oregon grape.jpg": "/dichotomouskey/static/media/creeping Oregon grape.62ea973cfa3533eb2f73.jpg",
-    "static/media/paprika yarrow.jpg": "/dichotomouskey/static/media/paprika yarrow.42d29898cad7d63cd13a.jpg",
+    "static/media/Paprika yarrow.jpg": "/dichotomouskey/static/media/Paprika yarrow.42d29898cad7d63cd13a.jpg",
     "static/media/pepperweed.jpg": "/dichotomouskey/static/media/pepperweed.56ac7a6504127bab6c96.jpg",
     "static/media/lobelia.jpg": "/dichotomouskey/static/media/lobelia.8dd54309eaf58aef217d.jpg",
     "static/media/society garlic.jpg": "/dichotomouskey/static/media/society garlic.a154a753672c3bc1c339.jpg",
@@ -225,11 +225,11 @@
     "static/media/Persian onion_small.jpg": "/dichotomouskey/static/media/Persian onion_small.dcbad96a1874451821e7.jpg",
     "index.html": "/dichotomouskey/index.html",
     "main.b203ed3a.css.map": "/dichotomouskey/static/css/main.b203ed3a.css.map",
-    "main.ec2906ea.js.map": "/dichotomouskey/static/js/main.ec2906ea.js.map",
+    "main.e2a603f3.js.map": "/dichotomouskey/static/js/main.e2a603f3.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b203ed3a.css",
-    "static/js/main.ec2906ea.js"
+    "static/js/main.e2a603f3.js"
   ]
 }
