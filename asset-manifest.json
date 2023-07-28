@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dichotomouskey/static/css/main.b203ed3a.css",
-    "main.js": "/dichotomouskey/static/js/main.e2a603f3.js",
+    "main.js": "/dichotomouskey/static/js/main.d975b0b2.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/Lewis flax.jpg": "/dichotomouskey/static/media/Lewis flax.cd625a0f59f2ab170f1d.jpg",
     "static/media/Adam's needle.jpg": "/dichotomouskey/static/media/Adam's needle.27a4a85a9c83486b0af5.jpg",
@@ -24,6 +24,7 @@
     "static/media/fairy fan-flower.jpg": "/dichotomouskey/static/media/fairy fan-flower.9b3fdf54e603c213044e.jpg",
     "static/media/bristly locust.jpg": "/dichotomouskey/static/media/bristly locust.e4196b0efbdaa991ecbe.jpg",
     "static/media/California fuschia.jpg": "/dichotomouskey/static/media/California fuschia.be3b3d1c7bfb67ae4eb1.jpg",
+    "static/media/beeblossom.jpg": "/dichotomouskey/static/media/beeblossom.c4417d23d4982f7fa80a.jpg",
     "static/media/African lily.jpg": "/dichotomouskey/static/media/African lily.bbe5513f337bc0859ef5.jpg",
     "static/media/red valerian.jpg": "/dichotomouskey/static/media/red valerian.1ed88cee9f1f794cc9c4.jpg",
     "static/media/Serenity Pink Magic African daisy.jpg": "/dichotomouskey/static/media/Serenity Pink Magic African daisy.d56e9406aaeb960ac68d.jpg",
@@ -109,6 +110,7 @@
     "static/media/butterfly weed.jpg": "/dichotomouskey/static/media/butterfly weed.caa1e5d89b24b7b2f19e.jpg",
     "static/media/scarlet globemallow.jpg": "/dichotomouskey/static/media/scarlet globemallow.65d0908c67587a42cc9c.jpg",
     "static/media/Aztec marigold.jpg": "/dichotomouskey/static/media/Aztec marigold.ece19660bdf437006b73.jpg",
+    "static/media/red hot poker.jpg": "/dichotomouskey/static/media/red hot poker.246e65d7619ef897560c.jpg",
     "static/media/Queen Anne's lace.jpg": "/dichotomouskey/static/media/Queen Anne's lace.d408942d5858770a98d9.jpg",
     "static/media/showy milkweed.jpg": "/dichotomouskey/static/media/showy milkweed.e4f8df28000bb2220e7b.jpg",
     "static/media/creeping Oregon grape.jpg": "/dichotomouskey/static/media/creeping Oregon grape.62ea973cfa3533eb2f73.jpg",
@@ -128,6 +130,7 @@
     "static/media/kousa dogwood.jpg": "/dichotomouskey/static/media/kousa dogwood.7934057fe8d716e85ac5.jpg",
     "static/media/daphne.jpg": "/dichotomouskey/static/media/daphne.b7ee43ad04561fcd7d33.jpg",
     "static/media/katniss.jpg": "/dichotomouskey/static/media/katniss.4b9d6c0d97d7aff1c2c2.jpg",
+    "static/media/black-eyed Susan.jpg": "/dichotomouskey/static/media/black-eyed Susan.7e3e31a00456d36ae6e7.jpg",
     "static/media/fernleaf desert parsley.jpg": "/dichotomouskey/static/media/fernleaf desert parsley.38a5d8daa5b73d65e303.jpg",
     "static/media/Chinese redbud.jpg": "/dichotomouskey/static/media/Chinese redbud.90ce1b3b67bf301a1927.jpg",
     "static/media/bush lily.jpg": "/dichotomouskey/static/media/bush lily.979c668c08782057e15f.jpg",
@@ -144,6 +147,7 @@
     "static/media/Rocky Mountain beeplant.jpg": "/dichotomouskey/static/media/Rocky Mountain beeplant.a7127eb1125443807ce6.jpg",
     "static/media/white oleander.jpg": "/dichotomouskey/static/media/white oleander.bddaebfd47b434f09479.jpg",
     "static/media/Scottish bluebell.jpg": "/dichotomouskey/static/media/Scottish bluebell.9c99ac7356e13b1e4074.jpg",
+    "static/media/purple coneflower.jpg": "/dichotomouskey/static/media/purple coneflower.aef31e65f178baf6891a.jpg",
     "static/media/purple passionflower.jpg": "/dichotomouskey/static/media/purple passionflower.a9ee7086385080975308.jpg",
     "static/media/nipplewort.jpg": "/dichotomouskey/static/media/nipplewort.84eb03dd87ddd7ea745f.jpg",
     "static/media/shortstem buckwheat.jpg": "/dichotomouskey/static/media/shortstem buckwheat.fd897454a23b047f8904.jpg",
@@ -225,11 +229,11 @@
     "static/media/Persian onion_small.jpg": "/dichotomouskey/static/media/Persian onion_small.dcbad96a1874451821e7.jpg",
     "index.html": "/dichotomouskey/index.html",
     "main.b203ed3a.css.map": "/dichotomouskey/static/css/main.b203ed3a.css.map",
-    "main.e2a603f3.js.map": "/dichotomouskey/static/js/main.e2a603f3.js.map",
+    "main.d975b0b2.js.map": "/dichotomouskey/static/js/main.d975b0b2.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b203ed3a.css",
-    "static/js/main.e2a603f3.js"
+    "static/js/main.d975b0b2.js"
   ]
 }
