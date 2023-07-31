@@ -40,10 +40,11 @@ export function FlowerList(props) {
 
     return (
         <div>
-            <div className="flex justify-center mt-6">
-                <Chip active={sortStyle === 'time'} onClick={() => changeSortStyle('time')}>sort{sortStyle === 'time' ? "ed" : ""} chronologically</Chip>
-                <Chip active={sortStyle === 'name'} onClick={() => changeSortStyle('name')}>sort{sortStyle === 'name' ? "ed" : ""} by name</Chip>
-                <Chip active={sortStyle === 'genus'} onClick={() => changeSortStyle('genus')}>sort{sortStyle === 'genus' ? "ed" : ""} by genus</Chip>
+            <div className="flex justify-center items-center mt-6">
+                <div className="mr-1">Sort style:</div>
+                <Chip active={sortStyle === 'time'} onClick={() => changeSortStyle('time')}>chronological</Chip>
+                <Chip active={sortStyle === 'name'} onClick={() => changeSortStyle('name')}>name</Chip>
+                <Chip active={sortStyle === 'genus'} onClick={() => changeSortStyle('genus')}>genus</Chip>
             </div>
             <div className="px-4 sm:px-8 flex justify-end mt-2 space-x-2 items-center hover:cursor-pointer max-w-[750px] m-auto" onClick={() => setDescriptionsHidden(!descriptionsHidden)}>
                 <input
