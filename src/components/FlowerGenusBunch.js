@@ -22,14 +22,16 @@ export function FlowerGenusBunch(props) {
                     <FontAwesomeIcon icon={open ? faChevronDown : faChevronRight} />
                 </div>
             </div>
-            {open && flowers.map((flower, i) => (
-                <FlowerListItem
-                    flower={flower}
-                    key={i}
-                    hideDescription={descriptionsHidden}
-                    onClick={() => viewFlower(flower)}
-                />
-            ))}
+            <div className="divide-y-2">
+                {open && flowers.map((flower, i) => (
+                    <FlowerListItem
+                        flower={flower}
+                        key={i}
+                        hideDescription={descriptionsHidden}
+                        onClick={() => viewFlower(flower)}
+                    />
+                ))}
+            </div>
         </div>
     )
 } 
