@@ -41,13 +41,13 @@ function App() {
       </div>
       <header>
         <h1 id="webtitle" className="text-4xl pt-16 pb-3">Pat's Flowers</h1>
-        <LastUpdatedInfo/>
+        <LastUpdatedInfo />
       </header>
       <NavButtons bgColor={bgColor} />
       <Routes>
-        <Route path="about" element={<About/>}/>
-        <Route path="list/*" element={<FlowerList/>}/>
-        <Route path="grid/*" element={<FlowerGrid/>}/>
+        <Route path="about" element={<About />} />
+        <Route path="list/*" element={<FlowerList bgColor={bgColor} />} />
+        <Route path="grid/*" element={<FlowerGrid />} />
       </Routes>
     </div>
   );
