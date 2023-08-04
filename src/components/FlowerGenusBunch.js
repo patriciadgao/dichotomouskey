@@ -11,12 +11,14 @@ export function FlowerGenusBunch(props) {
 
     useEffect(() => setOpen(initialOpenStatus), [initialOpenStatus]);
 
+    const genusBubbleClassName = `px-1 min-w-[16px] text-xs font-bold rounded-full text-white ${flowers.some((f) => f.new) ? 'bg-pink-400' : 'bg-lime-500'}`;
+
     return (
         <div>
             <div className="px-2 flex justify-between py-2 space-x-2 items-center hover:cursor-pointer max-w-[750px] m-auto" style={{ backgroundColor: getLightHexCode(bgColor) }}>
                 <div className="flex space-x-1.5 items-center">
                     <div>{genus}</div>
-                    <div className="px-1 min-w-[16px] text-xs font-bold rounded-full bg-pink-400 text-white">{numFlowers}</div>
+                    <div className={genusBubbleClassName}>{numFlowers}</div>
                 </div>
                 <div onClick={() => setOpen(!open)} className="grow flex justify-end">
                     <FontAwesomeIcon icon={open ? faChevronDown : faChevronRight} />
