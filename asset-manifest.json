@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dichotomouskey/static/css/main.3272e49d.css",
-    "main.js": "/dichotomouskey/static/js/main.886e2339.js",
+    "main.js": "/dichotomouskey/static/js/main.ff10f907.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/Lewis flax.jpg": "/dichotomouskey/static/media/Lewis flax.cd625a0f59f2ab170f1d.jpg",
     "static/media/Adam's needle.jpg": "/dichotomouskey/static/media/Adam's needle.27a4a85a9c83486b0af5.jpg",
@@ -169,6 +169,7 @@
     "static/media/crown of thorns.jpg": "/dichotomouskey/static/media/crown of thorns.4b88a254d2c9f32bb605.jpg",
     "static/media/crested cockscomb.jpg": "/dichotomouskey/static/media/crested cockscomb.0da7014285a8bcaf0ce9.jpg",
     "static/media/two-row stonecrop.jpg": "/dichotomouskey/static/media/two-row stonecrop.7af8e737eeaee0aa4347.jpg",
+    "static/media/Big Kiss White Flame gazania.jpg": "/dichotomouskey/static/media/Big Kiss White Flame gazania.c82284ed049d5918fc53.jpg",
     "static/media/sweet William.jpg": "/dichotomouskey/static/media/sweet William.a998c20572e52cfe127e.jpg",
     "static/media/heartleaf arnica.jpg": "/dichotomouskey/static/media/heartleaf arnica.87ad78058976f8d8f983.jpg",
     "static/media/coral bells.jpg": "/dichotomouskey/static/media/coral bells.6b4ae518824532881be8.jpg",
@@ -184,6 +185,7 @@
     "static/media/Greve's orchid tree.jpg": "/dichotomouskey/static/media/Greve's orchid tree.9aa7f6e0fcd08b57bad7.jpg",
     "static/media/cornflower.jpg": "/dichotomouskey/static/media/cornflower.10a760758045defcaca1.jpg",
     "static/media/pincushion flower.jpg": "/dichotomouskey/static/media/pincushion flower.4dd6e48a584951c32784.jpg",
+    "static/media/Pacifica Really Red vinca.jpg": "/dichotomouskey/static/media/Pacifica Really Red vinca.94def6c867a26acf9111.jpg",
     "static/media/Pink Panther coral bells.jpg": "/dichotomouskey/static/media/Pink Panther coral bells.5b9ec500395b2e2d70e6.jpg",
     "static/media/golden alexander.jpg": "/dichotomouskey/static/media/golden alexander.c7d675b93fe58314cdc2.jpg",
     "static/media/sunflower.jpg": "/dichotomouskey/static/media/sunflower.bd210801edecd31132ab.jpg",
@@ -191,6 +193,7 @@
     "static/media/Ascot Rainbow spurge.jpg": "/dichotomouskey/static/media/Ascot Rainbow spurge.e0016ea86c8f8bfb550b.jpg",
     "static/media/weeping blue ginger.jpg": "/dichotomouskey/static/media/weeping blue ginger.d4873c910e1a6205e329.jpg",
     "static/media/sacred datura.jpg": "/dichotomouskey/static/media/sacred datura.8cde58e67f677b57dcf8.jpg",
+    "static/media/sulfur cosmos.jpg": "/dichotomouskey/static/media/sulfur cosmos.47def9a7fe7f3f06bbdd.jpg",
     "static/media/rhododendron.jpg": "/dichotomouskey/static/media/rhododendron.9652f4bd69444a29e047.jpg",
     "static/media/Strawberry Candy daylily.jpg": "/dichotomouskey/static/media/Strawberry Candy daylily.ec60ec52e697a74aa250.jpg",
     "static/media/upright prairie coneflower.jpg": "/dichotomouskey/static/media/upright prairie coneflower.3e077229f4b1b28b1af3.jpg",
@@ -210,11 +213,13 @@
     "static/media/feverfew.jpg": "/dichotomouskey/static/media/feverfew.e8858e8afeceda14f049.jpg",
     "static/media/nemesia.jpg": "/dichotomouskey/static/media/nemesia.63c17c8c6f4640431ef2.jpg",
     "static/media/Plenifora Japanese kerria.jpg": "/dichotomouskey/static/media/Plenifora Japanese kerria.fbbe1314f4f2613a36c6.jpg",
+    "static/media/Blushing Bride Rose of Sharon.jpg": "/dichotomouskey/static/media/Blushing Bride Rose of Sharon.ce7c00611244ce9ba0f6.jpg",
     "static/media/serviceberry.jpg": "/dichotomouskey/static/media/serviceberry.c8ce8b14952323bee440.jpg",
     "static/media/seafoam statice.jpg": "/dichotomouskey/static/media/seafoam statice.45e51de79a518ce16e38.jpg",
     "static/media/Colorado four o'clock.jpg": "/dichotomouskey/static/media/Colorado four o'clock.441b6a75197f231a9b9d.jpg",
     "static/media/evergreen candytuft.jpg": "/dichotomouskey/static/media/evergreen candytuft.c761a8e0bddad87756c4.jpg",
     "static/media/tiger-eye pansy.jpg": "/dichotomouskey/static/media/tiger-eye pansy.5e8cd844f365fdca1c4f.jpg",
+    "static/media/white globe amaranth.jpg": "/dichotomouskey/static/media/white globe amaranth.3c9a8f220d673e4fbe2c.jpg",
     "static/media/purple morning glory.jpg": "/dichotomouskey/static/media/purple morning glory.59291ccc577d6b25232c.jpg",
     "static/media/buttonbush.jpg": "/dichotomouskey/static/media/buttonbush.7ee0589a0d00fb5852f3.jpg",
     "static/media/evening primrose.jpg": "/dichotomouskey/static/media/evening primrose.489b5acb91f228a1756c.jpg",
@@ -224,6 +229,8 @@
     "static/media/red clover.jpg": "/dichotomouskey/static/media/red clover.c995473f197bc9618fd5.jpg",
     "static/media/painter's palette.jpg": "/dichotomouskey/static/media/painter's palette.8731747e1874ad053739.jpg",
     "static/media/natal plum.jpg": "/dichotomouskey/static/media/natal plum.ec388e9f1413cb939a49.jpg",
+    "static/media/scarlet sage.jpg": "/dichotomouskey/static/media/scarlet sage.33e791944ce874b7bbee.jpg",
+    "static/media/Obsession Blue With Eye verbena.jpg": "/dichotomouskey/static/media/Obsession Blue With Eye verbena.1d8d89a49e28cf542ff3.jpg",
     "static/media/verbena.jpg": "/dichotomouskey/static/media/verbena.6d7e4c9362d14616b774.jpg",
     "static/media/fire vine.jpg": "/dichotomouskey/static/media/fire vine.824b32c1e2b4447d3d80.jpg",
     "static/media/Egyptian starcluster.jpg": "/dichotomouskey/static/media/Egyptian starcluster.89e8e196efee07ba9c25.jpg",
@@ -231,6 +238,7 @@
     "static/media/spider flower.jpg": "/dichotomouskey/static/media/spider flower.b0e4120d8f8b2e7c7c0a.jpg",
     "static/media/smoothstem blazingstar.jpg": "/dichotomouskey/static/media/smoothstem blazingstar.2203e7f3bbb6eab97fdc.jpg",
     "static/media/spider milkweed.jpg": "/dichotomouskey/static/media/spider milkweed.41f9545ec55f93ba9e4e.jpg",
+    "static/media/Crazytunia Frisky Purple petunia.jpg": "/dichotomouskey/static/media/Crazytunia Frisky Purple petunia.493404789889192543dc.jpg",
     "static/media/balloon flower.jpg": "/dichotomouskey/static/media/balloon flower.aafca5ac51b859d976ad.jpg",
     "static/media/dahlia.jpg": "/dichotomouskey/static/media/dahlia.17092d503a5ab0455e8f.jpg",
     "static/media/lion's tail.jpg": "/dichotomouskey/static/media/lion's tail.c3029215ad449115e561.jpg",
@@ -247,11 +255,11 @@
     "static/media/Persian onion_small.jpg": "/dichotomouskey/static/media/Persian onion_small.dcbad96a1874451821e7.jpg",
     "index.html": "/dichotomouskey/index.html",
     "main.3272e49d.css.map": "/dichotomouskey/static/css/main.3272e49d.css.map",
-    "main.886e2339.js.map": "/dichotomouskey/static/js/main.886e2339.js.map",
+    "main.ff10f907.js.map": "/dichotomouskey/static/js/main.ff10f907.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3272e49d.css",
-    "static/js/main.886e2339.js"
+    "static/js/main.ff10f907.js"
   ]
 }
