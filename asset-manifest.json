@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dichotomouskey/static/css/main.3272e49d.css",
-    "main.js": "/dichotomouskey/static/js/main.ff10f907.js",
+    "main.js": "/dichotomouskey/static/js/main.4dd8878f.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/Lewis flax.jpg": "/dichotomouskey/static/media/Lewis flax.cd625a0f59f2ab170f1d.jpg",
     "static/media/Adam's needle.jpg": "/dichotomouskey/static/media/Adam's needle.27a4a85a9c83486b0af5.jpg",
@@ -212,7 +212,7 @@
     "static/media/red dahlia.jpg": "/dichotomouskey/static/media/red dahlia.853b1992327603a463d0.jpg",
     "static/media/feverfew.jpg": "/dichotomouskey/static/media/feverfew.e8858e8afeceda14f049.jpg",
     "static/media/nemesia.jpg": "/dichotomouskey/static/media/nemesia.63c17c8c6f4640431ef2.jpg",
-    "static/media/Plenifora Japanese kerria.jpg": "/dichotomouskey/static/media/Plenifora Japanese kerria.fbbe1314f4f2613a36c6.jpg",
+    "static/media/Pleniflora Japanese kerria.jpg": "/dichotomouskey/static/media/Pleniflora Japanese kerria.fbbe1314f4f2613a36c6.jpg",
     "static/media/Blushing Bride Rose of Sharon.jpg": "/dichotomouskey/static/media/Blushing Bride Rose of Sharon.ce7c00611244ce9ba0f6.jpg",
     "static/media/serviceberry.jpg": "/dichotomouskey/static/media/serviceberry.c8ce8b14952323bee440.jpg",
     "static/media/seafoam statice.jpg": "/dichotomouskey/static/media/seafoam statice.45e51de79a518ce16e38.jpg",
@@ -255,11 +255,11 @@
     "static/media/Persian onion_small.jpg": "/dichotomouskey/static/media/Persian onion_small.dcbad96a1874451821e7.jpg",
     "index.html": "/dichotomouskey/index.html",
     "main.3272e49d.css.map": "/dichotomouskey/static/css/main.3272e49d.css.map",
-    "main.ff10f907.js.map": "/dichotomouskey/static/js/main.ff10f907.js.map",
+    "main.4dd8878f.js.map": "/dichotomouskey/static/js/main.4dd8878f.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3272e49d.css",
-    "static/js/main.ff10f907.js"
+    "static/js/main.4dd8878f.js"
   ]
 }
