@@ -103,7 +103,6 @@ black locust	Robinia	white;yellow	5	fused;round	large	funky	yes	I think it's rud
 false spikenard	Maianthemum	white	many	pointy	small	stalk	no	You can call this stuff treacleberry, feathery false lily of the valley, or Solomon's plume, but I think false spikenard is best because it cracks me up.
 water forget-me-not	Myosotis	blue	5	notched	small	star	no	Wow wow wow! These are a delight to stumble upon.
 golden alexander	Zizia	yellow	many	round	medium	cluster	no	It's like Queen Anne's lace, but better.
-desert rose	Adenium	pink	5	ruffled	medium	trumpet	no	A pretty tropical friend!
 crown of thorns	Euphorbia	pink	2	round;notched	small	cluster	no	The most Pepto-Bismol flower I've seen!
 peregrina	Jatropha	red	5	round;pointy	small	star	no	I think this is peregrina (also known as spicy jatropha), but I'm not too confident in that identification.
 pincushion flower	Scabiosa	purple	many	round;notched	small	circle	no	What a lovely flower! Pincushion is a much better name for it than its other common one, "small scabious."
@@ -240,7 +239,7 @@ Texas bluebell	Eustoma	purple	many	round;ruffled	large	cup	no	Other names for th
 Autumn Beauty sunflower	Helianthus	yellow;red	many	pointy	large	daisy-like	no	It's possible all the sunflowers on this site are the same variety and I'm just trying to show off how many sunflower color patterns I've seen.
 Velvet Queen sunflower	Helianthus	red;yellow	many	pointy	large	daisy-like	no	Maybe it's not a Velvet Queen sunflower, but it certainly looks like it deserves the name Velvet Queen.
 scarlet sage	Salvia	red	many	round;pointy	medium	stalk	no	This plant looks like it's sticking a pink tongue out at you!
-sulfur cosmos	Cosmos	orange	many	notched	medium	bowl	no	These flowers can be used as a dye, which is pretty cool! Isn't that color magnificent?
+sulfur diablo cosmos	Cosmos	orange	many	notched	medium	bowl	no	These flowers can be used as a dye, which is pretty cool! Isn't that color magnificent?
 Pacifica Really Red vinca	Vinca	red	5	rounded square;pointy	small	flat	no	This is the first non-periwinkle purple periwinkle I've seen! I think it's hilarious that it's called "really red" because that's exactly what it is.
 Big Kiss White Flame gazania	Gazania	white;pink	many	pointy	medium	daisy-like	no	I'm surprised I hadn't heard of gazanias before I identified this one—they're so lovely!
 Blushing Bride Rose of Sharon	Hibiscus	white;pink	5	ruffled	large	trumpet	no	I'm not totally sure I identified this one correctly but I do know that it's a double-flowered hibiscus. Double-flowered flowers are super interesting because they're all mutated (most roses you know about are double-flowered).
@@ -282,3 +281,67 @@ licorice mint	Agastache	pink;orange;purple	3	fused	small	stalk	no	Also known as 
 Moonraker Cape fuschia	Phygelius	yellow	5	fused	medium	cluster	no	Also called Cape figwort, these plants are neither closely related to true fuschias or figworts.
 Leavenworth's eryngo	Eryngium	purple	many	pointy	medium	danger	no	This thing is NOT a thistle.
 Mango Popsicle red hot poker	Kniphofia	orange	1	fused	large	stalk	no	What a nice color! Really makes me want a mango popsicle.
+Purple tiger rose	Rosa	pink	many	pointy;ruffled	large	rose-like	no	This rose is just ridiculous. Who taught it to do that? 
+double-flower African violet	Saintpaulia	purple	many	ruffled	small	rose-like	no	Tiny and cute! If you look closely you can see little hairs on the petals of this one.
+African violet	Primulina	purple	5	fused;round	small	trumpet	no	This flower looks like it would talk to you if it could.
+Autumn Sunburst Encore Azalea	Rhododendron	pink;white	5	fused;round	medium	trumpet	no	I love that the people who name flowers give them such delectable names. Autumn sunburst! Mmm!
+anise-scented sage	Salvia	purple	2	fused;round	small	funky	no	Also called hummingbird sage, this plant is native to South America.
+silverleafed princess flower	Pleroma	purple	5	notched;rounded square	small	flat	no	I've got nothing to add. :)
+firecracker flower	Crossandra	orange	5	rounded;notched;fused	small	bag	no	This plant is called firecracker flower because its seed pods explode. So there's that.
+pagoda flower	Clerodendrum	white	5	pointy	small	star	no	This plant is native to tropical Asia as well as Papuasia, which is a botanical region, which is something defined by the World Geographical Scheme for Recording Plant Distributions (WGSRPD), something I did not know existed until a few moments ago.
+Chocolate Sunrise canna lily	Canna	yellow	3	ruffled	large	trumpet	no	I'm trying really hard to get my canna lilies right, but nobody's got a dichotomous key for those! What's up with that? 
+King of Siam tropical water lily	Nymphaea	purple	many	pointy	large	waterlily	no	This variety of water lily has only been around since 1998!
+Hot Pink tropical water lily	Nymphaea	pink	many	pointy	large	waterlily	no	I don't actually know what this water lily's name is, but it is hot pink.
+Cape Blue water lily	Nymphaea	purple	many	pointy	large	waterlily	no	What a perfect flower :)
+Pygmy water lily	Nymphaea	white	many	pointy	large	waterlily	no	Water lilies are the best!
+white pitcherplant	Sarracenia	white	1	ruffled	large	pitcher	no	This plant eats bugs and you can too! (If you want.)
+pickerelweed	Pontederia	blue	6	round;pointy	medium	stalk	no	If you look closely you can see a little bee on this one!
+prairie blazing star	Liatris	pink	5	pointy	large	stalk	no	These things are very tall and also known as cattail blazing star and cattail gayfeather.
+Little Henry	Rudbeckia	yellow	many	fused;notched	medium	daisy-like	no	Little Henry is a type of coneflower with petals that look like french fries. I find everything about that fantastic.
+clasping heliotrope	Heliotropium	purple	5	round;fused	small	cluster	no	Also known as blue heliotrope and summer heliotrope, this plant is spreading too much in Australia so people are trying to control its population with beetles.
+purpledisk honeycombhead	Balduina	yellow	many	notched	medium	daisy-like	no	This guy could give Little Henry a run for its money in terms of having petals that look like french fries.
+episcea lilacina	Episcea	purple	5	notched	medium	flat	no	A finely-textured friend.
+guzmania conifera	Guzmania	red;yellow	many	pointy	large	cone	no	A spiky friend!
+macleania	Macleania	red	5	pointy;fused	small	cluster	no	For some reason these remind me of candy corn.
+Low's pitcher plant	Nepenthes	purple	1	pointy	large	pitcher	no	These were discovered on Mount Kinabalu, the highest mountain in Borneo and Malaysia.
+ceratostema silvicola	Ceratostema	red;purple	5	pointy;fused	small	cluster	no	These are way too waxy to not be candy, right? 
+firecracker bush	Bouvardia	red	4	pointy;fused	small	cluster	no	The Wikipedia page for these flowers say that they are "spectacular" and I could not agree more.
+lollipop plant	Pachystachys	yellow;white	2	fused	medium	stalk	no	I can't decide which common name I like better for this plant: lollipop plant or golden shrimp plant.
+queen lily ginger	Curcuma	pink	many	round;fused	large	stalk	no	This beautiful thing is also called jewel of Thailand and hidden ginger.
+desert rose	Adenium	pink	5	ruffled	medium	star	no	A beautiful, periwinkle-y flower, the desert rose also goes by names including mock azalea, impala lily, and kudu.
+Arkansas ironweed	Vernonia	pink;purple	many	pointy	small	ball	no	Perhaps ironweed's called that because it's bitter to mammals.
+Mystic Illusion dahlia	Dahlia	yellow	many	pointy;notched	large	daisy-like	no	I'm not sure what the illusion is supposed to be—I just think these dahlias are cute.
+butterfly bush	Rotheca	blue	5	rounded square;round	small	star	no	This plant has many medicinal uses, including treating diabetes.
+white garland lily	Hedychium	white	4	ruffled	large	cluster	no	Also known as white ginger, butterfly lily, and fragrant garland flower, this is the national flower of Cuba.
+Purple Formosa Azalea	Rhododendron	pink	5	ruffled	large	flat	no	Azaleas are always a pleasant find on a suburb walk.
+Titan Polka Dot periwinkle	Vinca	white	5	pointy	medium	flat	no	It still blows my mind that not all periwinkles are purple for some reason.
+Southern Fried lantana	Lantana	orange	4	pointy	small	cluster	no	I'm not sure if this is Southern Fried lantana, but I sure hope it is because that name is rockin'.
+Madagascar periwinkle (1)	Vinca	pink	5	pointy	medium	flat	no	These are a really good garden box or roadside pot flower.
+angelonia	Angelonia	white	5	rounded square	small	stalk	no	What impressive blooms! They're sorta like snapdragons in their shape.
+pee gee hydrangea	Hydrangea	white	4	round	large	cluster	no	This might be my hot take, but I like the blue-or-pink hydrangeas best.
+wax begonia	Begonia	pink	4	pointy;notched	medium	bowl	no	The waxiness of these petals is quite pleasing to the eye.
+Madagascar periwinkle (2)	Vinca	pink	5	pointy	medium	flat	no	This is the first time I'm posting two pictures of the same plant! I just liked the difference in the flower center colors and wanted to show it off.
+Tropical Sunrise canna lily	Canna	orange	3	ruffled	large	trumpet	no	Once again I am just trying my best to have identified this canna.
+Autumn Twist Encore azalea	Rhododendron	pink	5	notched;ruffled	large	flat	no	This is a particularly weird Autumn Twist Encore azalea! Most of the time they just have some dark pink stripes, but this one mutated all funky.
+Peach Drift rose	Rosa	pink	many	ruffled	medium	rose-like	no	Lately I have been trying to stop and smell the roses. 10/10 worth it.
+crepe myrtle	Lagerstroemia	pink	many	ruffled	medium	cluster	yes	These flowers are named for their crepe-like texture.
+Miss Oklahoma canna lily	Canna	pink	3	ruffled	large	trumpet	no	I'm not sure if I got this canna right but I sure like that name so I'm keeping it here until someone corrects me.
+lilyturf	Liriope	purple	5	round	small	stalk	no	Also called border grass and monkey grass.
+sulfur cosmos	Cosmos	orange	many	notched	medium	bowl	no	Shortly after I took this picture, a gulf fritillary landed on this flower, resulting in the best picture I have taken in my whole life. That's not the one I'm including here because I don't want you to get distracted from the flower.
+mums	Chrysanthemum	pink	many	notched;round	medium	daisy-like	no	Mums and chrysanthemums are the same! Use that next time you get chrysanthemum in a spelling bee.
+purpletop vervain	Verbena	purple	5	notched;rounded square	small	cluster	no	Also called clustertop vervain, tall verbena and pretty verbena.
+Magenta Magic dahlia	Dahlia	pink	many	ruffled	large	daisy-like	no	I like that someone, probably the person who grew it, named this "magic." Like, whoa, I can't believe I grew that!
+Starship Deep Rose lobelia	Lobelia	pink	5	pointy	medium	stalk	no	It's time to start using sci-fi names for flowers, apparently. You heard it here first.
+Heartland Pink Sunset lantana	Lantana	pink	4	pointy	small	cluster	no	Everyone's just out here making new kinds of lantana.
+Orange Wonder snapdragon	Antirrhinum	orange	5	round;fused	large	stalk	no	Snapdragons are also called toadflax (so are a few other genuses, so don't get confused) and dog flower.
+black-eyed Susan vine	Thunbergia	orange	5	notched;rounded square	medium	flat	no	Remember sweet William? He was allegedly the lover of black-eyed Susan in a song! It's flower name lore!
+Mexican flamevine	Pseudogynoxys	red	many	pointy;notched	medium	daisy-like	no	The old scientific name for this flower translated to "confused old man" in Latin, because if you don't give the plant something to climb on, it gets all scraggly.
+cactus dahlia	Dahlia	pink	many	pointy;fused	large	circle	no	I'm pretty sure cactus dahlias are ones with these wild poky petals.
+Kahili ginger	Hedychium	yellow;orange	many	pointy	large	stalk	no	Something I'm finding out as I go to more tropical exhibits is that gingers are weird.
+red powder puff	Calliandra	red	many	pointy	small	flat	yes	A fabulous little flower!
+Bieberstein's crocus	Crocus	purple	6	pointy	medium	cup	no	In lots of places, the way you can tell that it's spring is crocuses.
+azure blue sage	Saliva	blue	3	fused;rounded square	medium	stalk	no	This plant is native to much of the US.
+monkshood	Aconitum	blue	5	fused;round	large	stalk	no	Also called aconite, wolfsbane, leopard's bane, devil's helmet, and blue rocket—a plethora of fantastic names for a very poisonous plant.
+Apricot Desire dahlia	Dahlia	orange	many	pointy	large	circle	no	I feel like peach is a rare and underrated flower color.
+Mirage Hot Pink sage	Salvia	pink	3	fused;round	medium	funky	no	You can tell it's sage because I don't know what to call the flower shape at all.
+elephant head amaranth	Amaranthus	purple	many	ruffled	large	ball	no	I find these flowers really uncomfortable. It's like automatic topiary.
