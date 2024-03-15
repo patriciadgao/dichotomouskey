@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dichotomouskey/static/css/main.7c9d9839.css",
-    "main.js": "/dichotomouskey/static/js/main.e7b3a196.js",
+    "main.js": "/dichotomouskey/static/js/main.2cc925bf.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/Lewis flax.jpg": "/dichotomouskey/static/media/Lewis flax.cd625a0f59f2ab170f1d.jpg",
     "static/media/Adam's needle.jpg": "/dichotomouskey/static/media/Adam's needle.27a4a85a9c83486b0af5.jpg",
@@ -26,6 +26,7 @@
     "static/media/fairy fan-flower.jpg": "/dichotomouskey/static/media/fairy fan-flower.9b3fdf54e603c213044e.jpg",
     "static/media/bristly locust.jpg": "/dichotomouskey/static/media/bristly locust.e4196b0efbdaa991ecbe.jpg",
     "static/media/California fuschia.jpg": "/dichotomouskey/static/media/California fuschia.be3b3d1c7bfb67ae4eb1.jpg",
+    "static/media/crocus.jpg": "/dichotomouskey/static/media/crocus.3eb36b62c1403548df0b.jpg",
     "static/media/beeblossom.jpg": "/dichotomouskey/static/media/beeblossom.c4417d23d4982f7fa80a.jpg",
     "static/media/elephant head amaranth.jpg": "/dichotomouskey/static/media/elephant head amaranth.debd2d3e3ffa6df27104.jpg",
     "static/media/African lily.jpg": "/dichotomouskey/static/media/African lily.bbe5513f337bc0859ef5.jpg",
@@ -204,6 +205,7 @@
     "static/media/crownvetch.jpg": "/dichotomouskey/static/media/crownvetch.e61aa14f534462ee25b9.jpg",
     "static/media/camas.jpg": "/dichotomouskey/static/media/camas.7077bb77a088dcd2dc5e.jpg",
     "static/media/narrow-leaf penstemon.jpg": "/dichotomouskey/static/media/narrow-leaf penstemon.2169e655f8c324783176.jpg",
+    "static/media/hyacinth.jpg": "/dichotomouskey/static/media/hyacinth.6a583880ad38b1034239.jpg",
     "static/media/Greve's orchid tree.jpg": "/dichotomouskey/static/media/Greve's orchid tree.9aa7f6e0fcd08b57bad7.jpg",
     "static/media/Magenta Magic dahlia.jpg": "/dichotomouskey/static/media/Magenta Magic dahlia.c9018ac6c6fbb01fd5cf.jpg",
     "static/media/Apricot Desire dahlia.jpg": "/dichotomouskey/static/media/Apricot Desire dahlia.37622e94df51a28b3b31.jpg",
@@ -215,6 +217,7 @@
     "static/media/Autumn Twist Encore azalea.jpg": "/dichotomouskey/static/media/Autumn Twist Encore azalea.a492968e7f44134f8c5b.jpg",
     "static/media/golden alexander.jpg": "/dichotomouskey/static/media/golden alexander.c7d675b93fe58314cdc2.jpg",
     "static/media/sunflower.jpg": "/dichotomouskey/static/media/sunflower.bd210801edecd31132ab.jpg",
+    "static/media/white squill.jpg": "/dichotomouskey/static/media/white squill.f826cbb0a21daea3be2c.jpg",
     "static/media/rose campion.jpg": "/dichotomouskey/static/media/rose campion.0bac9776e2ccaf2853c2.jpg",
     "static/media/Ascot Rainbow spurge.jpg": "/dichotomouskey/static/media/Ascot Rainbow spurge.e0016ea86c8f8bfb550b.jpg",
     "static/media/weeping blue ginger.jpg": "/dichotomouskey/static/media/weeping blue ginger.d4873c910e1a6205e329.jpg",
@@ -239,6 +242,7 @@
     "static/media/cactus dahlia.jpg": "/dichotomouskey/static/media/cactus dahlia.c6beb2724827866c2ead.jpg",
     "static/media/sego lily.jpg": "/dichotomouskey/static/media/sego lily.6d42accb2b4e7a428e0e.jpg",
     "static/media/bittersweet nightshade.jpg": "/dichotomouskey/static/media/bittersweet nightshade.48655525836efa747b1b.jpg",
+    "static/media/wall bellflower.jpg": "/dichotomouskey/static/media/wall bellflower.93dfadb19021c613c1f3.jpg",
     "static/media/lilyturf.jpg": "/dichotomouskey/static/media/lilyturf.b786a59f708d062cf363.jpg",
     "static/media/oleander.jpg": "/dichotomouskey/static/media/oleander.addfa41abe906645a22f.jpg",
     "static/media/Mexican flamevine.jpg": "/dichotomouskey/static/media/Mexican flamevine.2f44697503604044a048.jpg",
@@ -305,6 +309,7 @@
     "static/media/firecracker bush.jpg": "/dichotomouskey/static/media/firecracker bush.4a527bceb960ea7ae803.jpg",
     "static/media/double-flower African violet.jpg": "/dichotomouskey/static/media/double-flower African violet.cdaea3e621c1b574b42a.jpg",
     "static/media/Southern Fried lantana.jpg": "/dichotomouskey/static/media/Southern Fried lantana.d6f63834021064801db6.jpg",
+    "static/media/common daisy.jpg": "/dichotomouskey/static/media/common daisy.2d92f6c56ffa0ab5a452.jpg",
     "static/media/meadow garlic.jpg": "/dichotomouskey/static/media/meadow garlic.5bd117603df00199b60a.jpg",
     "static/media/buttonbush.jpg": "/dichotomouskey/static/media/buttonbush.7ee0589a0d00fb5852f3.jpg",
     "static/media/evening primrose.jpg": "/dichotomouskey/static/media/evening primrose.489b5acb91f228a1756c.jpg",
@@ -353,11 +358,11 @@
     "static/media/Persian onion_small.jpg": "/dichotomouskey/static/media/Persian onion_small.dcbad96a1874451821e7.jpg",
     "index.html": "/dichotomouskey/index.html",
     "main.7c9d9839.css.map": "/dichotomouskey/static/css/main.7c9d9839.css.map",
-    "main.e7b3a196.js.map": "/dichotomouskey/static/js/main.e7b3a196.js.map",
+    "main.2cc925bf.js.map": "/dichotomouskey/static/js/main.2cc925bf.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c9d9839.css",
-    "static/js/main.e7b3a196.js"
+    "static/js/main.2cc925bf.js"
   ]
 }
