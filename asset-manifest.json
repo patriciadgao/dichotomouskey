@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dichotomouskey/static/css/main.392f8697.css",
-    "main.js": "/dichotomouskey/static/js/main.eaf0948c.js",
+    "main.js": "/dichotomouskey/static/js/main.e13ab302.js",
     "static/js/787.369faa49.chunk.js": "/dichotomouskey/static/js/787.369faa49.chunk.js",
     "static/media/Lewis flax.jpg": "/dichotomouskey/static/media/Lewis flax.cd625a0f59f2ab170f1d.jpg",
     "static/media/Adam's needle.jpg": "/dichotomouskey/static/media/Adam's needle.27a4a85a9c83486b0af5.jpg",
@@ -372,11 +372,11 @@
     "static/media/Persian onion_small.jpg": "/dichotomouskey/static/media/Persian onion_small.dcbad96a1874451821e7.jpg",
     "index.html": "/dichotomouskey/index.html",
     "main.392f8697.css.map": "/dichotomouskey/static/css/main.392f8697.css.map",
-    "main.eaf0948c.js.map": "/dichotomouskey/static/js/main.eaf0948c.js.map",
+    "main.e13ab302.js.map": "/dichotomouskey/static/js/main.e13ab302.js.map",
     "787.369faa49.chunk.js.map": "/dichotomouskey/static/js/787.369faa49.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.392f8697.css",
-    "static/js/main.eaf0948c.js"
+    "static/js/main.e13ab302.js"
   ]
 }
