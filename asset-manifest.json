@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dichotomouskey/static/css/main.7c9d9839.css",
-    "main.js": "/dichotomouskey/static/js/main.7526cf11.js",
+    "main.css": "/dichotomouskey/static/css/main.034ff7e9.css",
+    "main.js": "/dichotomouskey/static/js/main.b1a525f1.js",
     "static/js/787.076c1aa5.chunk.js": "/dichotomouskey/static/js/787.076c1aa5.chunk.js",
     "static/media/Lotus japonicus.jpg": "/dichotomouskey/static/media/Lotus japonicus.076062ac5edafc71f073.jpg",
     "static/media/Persian onion.jpg": "/dichotomouskey/static/media/Persian onion.4ccac9e1ef38a42aa171.jpg",
@@ -403,12 +403,12 @@
     "static/media/Lewis flax_small.jpg": "/dichotomouskey/static/media/Lewis flax_small.86f109d1f31481233b0b.jpg",
     "static/media/Persian onion_small.jpg": "/dichotomouskey/static/media/Persian onion_small.dcbad96a1874451821e7.jpg",
     "index.html": "/dichotomouskey/index.html",
-    "main.7c9d9839.css.map": "/dichotomouskey/static/css/main.7c9d9839.css.map",
-    "main.7526cf11.js.map": "/dichotomouskey/static/js/main.7526cf11.js.map",
+    "main.034ff7e9.css.map": "/dichotomouskey/static/css/main.034ff7e9.css.map",
+    "main.b1a525f1.js.map": "/dichotomouskey/static/js/main.b1a525f1.js.map",
     "787.076c1aa5.chunk.js.map": "/dichotomouskey/static/js/787.076c1aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c9d9839.css",
-    "static/js/main.7526cf11.js"
+    "static/css/main.034ff7e9.css",
+    "static/js/main.b1a525f1.js"
   ]
 }
